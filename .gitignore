@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 .venv312/
 .env
+deployment/server.env
 chroma_data/
 
 # SQLite/local data
