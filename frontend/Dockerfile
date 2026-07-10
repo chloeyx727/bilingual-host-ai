@@ -2,8 +2,10 @@ FROM node:20-alpine AS build
 
 WORKDIR /app
 
+RUN npm config set registry https://registry.npmmirror.com
+
 COPY frontend/package*.json ./
-RUN npm ci
+RUN npm ci --fetch-timeout=120000 --fetch-retries=5
 
 COPY frontend ./
 RUN npm run build
