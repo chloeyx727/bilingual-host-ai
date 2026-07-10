@@ -39,5 +39,9 @@ def _parse_csv_env(name: str, default: list[str]) -> list[str]:
 
 CORS_ORIGINS = _parse_csv_env(
     "CORS_ORIGINS",
-    ["http://localhost:5173", "http://localhost:3000"],
+    [
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://bilingual-host-ai.vercel.app",
+    ],
 )

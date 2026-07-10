@@ -1,4 +1,6 @@
-const BASE_URL = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/$/, '')
+const BASE_URL = (
+  import.meta.env.VITE_API_BASE_URL || 'https://bilingual-host-ai-api.onrender.com/api'
+).replace(/\/$/, '')
 
 async function request<T>(url: string, options?: RequestInit): Promise<T> {
   const res = await fetch(`${BASE_URL}${url}`, {
