@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv312/
+.env
+chroma_data/
+
+# SQLite/local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Node/Vite
+node_modules/
+dist/
+*.tsbuildinfo
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

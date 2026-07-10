@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "hist_001",
+    "title_zh": "三星堆遗址",
+    "title_en": "Sanxingdui Site",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "三星堆遗址位于四川省广汉市，距今约4800-2600年，是古蜀文明最重要的都城遗址之一。1929年首次发现，1986年两个祭祀坑出土了青铜大立人、青铜神树、纵目面具、金杖等震惊世界的文物，彻底改写了'中华文明一元起源论'。2020-2023年新一轮发掘又发现6个祭祀坑，出土文物超过1.7万件，持续刷新对古蜀文明的认知。三星堆的青铜文明高度发达却突然消失，其神秘性使其成为全球考古学最引人入胜的课题之一。",
+      "summary_en": "The Sanxingdui Site in Guanghan, Sichuan, dating to ~4,800–2,600 years ago, is one of the most important capital-city sites of the ancient Shu civilization. First discovered in 1929, its two sacrificial pits unearthed in 1986 yielded world-shaking artifacts — a bronze standing figure, bronze sacred trees, vertical-eyed masks, and a gold scepter — fundamentally rewriting the 'single-origin theory' of Chinese civilization. A new round of excavation (2020–2023) uncovered 6 additional sacrificial pits with over 17,000 artifacts, continuously reshaping understanding of the ancient Shu. Its highly developed bronze civilization, which mysteriously vanished, makes Sanxingdui one of the most fascinating subjects in global archaeology.",
+      "key_facts": [
+        {
+          "zh": "距今约4800-2600年（新石器时代晚期至商周），与中原商代文明并存",
+          "en": "Dating to ~4,800–2,600 years ago (Late Neolithic to Shang-Zhou period); contemporaneous with the Shang Dynasty of the Central Plains"
+        },
+        {
+          "zh": "1986年发现1号和2号祭祀坑，出土青铜器、金器、玉器等1700余件",
+          "en": "Sacrificial Pits No.1 and No.2 discovered in 1986, yielding over 1,700 bronze, gold, and jade artifacts"
+        },
+        {
+          "zh": "青铜大立人像高2.62米，是世界上现存最高的青铜人像之一",
+          "en": "The Bronze Standing Figure, at 2.62 m, is one of the tallest surviving bronze human figures in the world"
+        },
+        {
+          "zh": "2020-2023年新发现的3-8号祭祀坑，出土文物超1.7万件",
+          "en": "Newly discovered Pits No.3–8 (2020–2023) yielded over 17,000 artifacts"
+        },
+        {
+          "zh": "三星堆青铜文明没有发现文字，其族属、信仰体系和消亡原因仍存争议",
+          "en": "No writing system has been found at Sanxingdui; its ethnic affiliation, belief system, and reasons for collapse remain debated"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "祭祀坑",
+          "en": "Sacrificial Pit",
+          "context": "古蜀文明中用于埋藏祭祀用青铜器、金器、象牙等的仪式性坑穴，并非墓葬"
+        },
+        {
+          "zh": "纵目面具",
+          "en": "Vertical-Eyed Mask / Protruding-Eyed Mask",
+          "context": "三星堆最具代表性的青铜面具，眼睛呈圆柱状凸出，被认为表现某种'超人'的存在或其宗教功能与'目光所及'有关"
+        },
+        {
+          "zh": "青铜神树",
+          "en": "Bronze Sacred Tree",
+          "context": "高达3.96米的青铜树，被认为是古蜀人宇宙观的物质表达——连通天、地、人三界的'世界树'"
+        },
+        {
+          "zh": "古蜀文明",
+          "en": "Ancient Shu Civilization",
+          "context": "以成都平原为中心的古代文明，约从新石器时代晚期延续至战国秦灭巴蜀（公元前316年）"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "三星堆是外星文明",
+          "fact": "三星堆文明是中华文明多元一体格局的重要组成部分，其青铜铸造技术虽与中原不同但存在交流，最新研究证实其与金沙遗址一脉相承"
+        },
+        {
+          "myth": "三星堆的所有文物都已发掘完毕",
+          "fact": "目前已发掘面积尚不到遗址总面积的千分之二，三星堆的考古工作可能会持续数十年甚至更长"
+        }
+      ],
+      "narrative_angles": [
+        "改写历史的三星堆：如何颠覆中华文明'中原中心论'",
+        "无字的文明：三星堆如何在没有文字的情况下建立复杂社会",
+        "青铜神树的宇宙：古蜀人世界观的重建",
+        "考古直播时代的三星堆：从1986到2023的两次'全球围观'"
+      ]
+    },
+    "embedding_text": "三星堆 Sanxingdui 古蜀文明 ancient Shu civilization 4800年 广汉 祭祀坑 sacrificial pit 青铜大立人 Bronze Standing Figure 2.62米 纵目面具 青铜神树 Bronze Sacred Tree 金杖 gold scepter 1986年 2020年 中华文明多元一体 无文字 金沙遗址"
+  },
+  {
+    "id": "hist_002",
+    "title_zh": "金沙遗址",
+    "title_en": "Jinsha Site",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "金沙遗址位于成都市青羊区，距今约3200-2600年（商代晚期至西周），是三星堆文明衰落之后古蜀文明的又一都邑中心。2001年因房地产开发被发现，出土了太阳神鸟金饰、金面具、大量象牙等珍贵文物。太阳神鸟金饰（四鸟绕日）线条流丽，仅厚0.02厘米，已被确定为中国文化遗产标志。金沙遗址的发现使古蜀文明的脉络从三星堆延续下来，证明了成都平原文明的连续性和独特性。",
+      "summary_en": "The Jinsha Site, in Qingyang District, Chengdu, dating to ~3,200–2,600 years ago (Late Shang to Western Zhou), is another capital center of the ancient Shu civilization after Sanxingdui's decline. Discovered in 2001 during real estate development, it yielded the Sunbird Gold Foil, gold masks, and massive quantities of ivory. The Sunbird Gold Foil — four birds circling the sun rendered in flowing lines, just 0.02 cm thick — has been designated the official symbol of Chinese Cultural Heritage. The Jinsha discovery extended the ancient Shu civilizational sequence from Sanxingdui onward, proving the continuity and uniqueness of Chengdu Plain's civilization.",
+      "key_facts": [
+        {
+          "zh": "距今约3200-2600年，是三星堆文明衰落后的古蜀都邑",
+          "en": "Dating to ~3,200–2,600 years ago; the capital of ancient Shu after Sanxingdui's decline"
+        },
+        {
+          "zh": "2001年因房地产开发施工被发现",
+          "en": "Discovered in 2001 during real estate construction"
+        },
+        {
+          "zh": "太阳神鸟金饰仅重20克，厚0.02厘米，2005年被定为中国文化遗产标志",
+          "en": "The Sunbird Gold Foil weighs just 20 g at 0.02 cm thickness; designated the China Cultural Heritage emblem in 2005"
+        },
+        {
+          "zh": "出土象牙数量以吨计，象牙祭祀是金沙最突出的文化特征",
+          "en": "Ivory unearthed in tons — elephant tusk offerings are Jinsha's most distinctive cultural feature"
+        },
+        {
+          "zh": "金沙遗址博物馆建于遗址原址之上，是国内罕见的'遗址博物馆'",
+          "en": "The Jinsha Site Museum is built directly above the excavation site — a rare 'site museum' in China"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "太阳神鸟金饰",
+          "en": "Sunbird Gold Foil / Sun and Immortal Birds Gold Ornament",
+          "context": "四只神鸟围绕旋转的太阳飞行，表现'金乌负日'的神话，象征光明、生命和永恒"
+        },
+        {
+          "zh": "遗址博物馆",
+          "en": "Site Museum",
+          "context": "直接在考古发掘原址上建立的博物馆，观众可以在文物出土的原地观看它们"
+        },
+        {
+          "zh": "象牙祭祀",
+          "en": "Ivory Ritual / Elephant Tusk Offering",
+          "context": "金沙人用大量象牙进行宗教祭祀，表明当时成都平原有亚洲象分布且象牙具有特殊宗教意义"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "金沙遗址只是三星堆的'复制品'",
+          "fact": "金沙继承了三星堆的文化基因（金面具、青铜人像、象牙祭祀），但也发展出自身的特色（太阳神鸟、玉器工艺），是古蜀文明的新阶段而非简单复制"
+        },
+        {
+          "myth": "太阳神鸟金饰是古代货币或装饰品",
+          "fact": "太阳神鸟金饰极薄极轻，不可能是实用品，学术界普遍认为它是宗教仪式中使用的'神器'"
+        }
+      ],
+      "narrative_angles": [
+        "从三星堆到金沙：古蜀文明的迁徙之谜",
+        "太阳神鸟：一个厚度0.02厘米的文明符号",
+        "象牙从何而来？金沙象牙祭祀背后的古气候与古生态",
+        "建在遗址上的博物馆：金沙的公众考古实践"
+      ]
+    },
+    "embedding_text": "金沙遗址 Jinsha Site 成都市 3200年 古蜀文明 太阳神鸟金饰 Sunbird Gold Foil 中国文化遗产标志 金面具 象牙祭祀 遗址博物馆 商代晚期 西周 三星堆 文明连续性"
+  },
+  {
+    "id": "hist_003",
+    "title_zh": "武侯祠与三国文化",
+    "title_en": "Wuhou Shrine and Three Kingdoms Culture",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "成都武侯祠是中国唯一一座君臣合祀祠庙，也是最具影响力的三国文化遗址。始建于公元223年（蜀汉章武三年），最初是刘备的惠陵和汉昭烈庙，约南北朝时期将诸葛亮祠迁入，形成'君臣合祀'的独特格局。祠内古柏森森，有岳飞手书《出师表》刻石、唐碑（'三绝碑'）等珍贵文物。武侯祠不仅是历史纪念地，更是三国文化——尤其是诸葛亮'鞠躬尽瘁、死而后已'精神——的全球传播中心。三国文化在日本、韩国、东南亚有着极为广泛的影响力。",
+      "summary_en": "Chengdu's Wuhou Shrine is the only temple in China where a ruler and his minister are jointly enshrined, and is the most influential site of Three Kingdoms culture. First built in 223 CE (the third year of the Shu Han Zhangwu era) as Liu Bei's Huiling Mausoleum and the Temple of Han Zhaolie, Zhuge Liang's shrine was merged into it around the Southern and Northern Dynasties, creating the unique 'ruler-and-minister joint worship' pattern. The shrine's ancient cypresses shade precious relics such as Yue Fei's stone engraving of 'Chu Shi Biao' (Memorial on Sending Out the Troops) and the Tang Dynasty 'Stele of Three Excellences.' Wuhou Shrine is not only a historical memorial but a global dissemination center for Three Kingdoms culture — particularly the spirit of Zhuge Liang's 'sparing no effort until death.' Three Kingdoms culture enjoys immense popularity in Japan, Korea, and Southeast Asia.",
+      "key_facts": [
+        {
+          "zh": "始建于公元223年，中国唯一君臣合祀祠庙",
+          "en": "Founded in 223 CE; the only joint ruler-minister enshrinement temple in China"
+        },
+        {
+          "zh": "三绝碑（唐碑）：公元809年立，裴度撰文、柳公绰书丹、鲁建镌刻",
+          "en": "The 'Stele of Three Excellences' (809 CE): text by Pei Du, calligraphy by Liu Gongchuo, carving by Lu Jian"
+        },
+        {
+          "zh": "三国文化在日本：吉川英治《三国志》小说（1939年）售出超过2000万册",
+          "en": "Three Kingdoms culture in Japan: Eiji Yoshikawa's 'Sangokushi' novel (1939) sold over 20 million copies"
+        },
+        {
+          "zh": "诸葛亮（181-234年）被封为武乡侯，谥号忠武侯，'武侯'由此而来",
+          "en": "Zhuge Liang (181–234 CE) was enfeoffed as Marquis of Wuxiang, posthumously titled Zhongwu — hence 'Wuhou'"
+        },
+        {
+          "zh": "锦里古街紧邻武侯祠，是成都在三国文化IP基础上打造的文旅融合典范",
+          "en": "Jinli Ancient Street, adjacent to Wuhou Shrine, is a model of cultural tourism integration built on the Three Kingdoms IP"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "君臣合祀",
+          "en": "Joint Ruler-Minister Enshrinement",
+          "context": "在同一座祠庙中同时祭祀君主和大臣，武侯祠是中国唯一有此格局的祠庙"
+        },
+        {
+          "zh": "出师表",
+          "en": "Memorial on Sending Out the Troops / Chu Shi Biao",
+          "context": "诸葛亮写给后主刘禅的表文，'鞠躬尽瘁、死而后已'出自此文，是中国文学史上最著名的奏章之一"
+        },
+        {
+          "zh": "三国演义",
+          "en": "Romance of the Three Kingdoms",
+          "context": "罗贯中所著历史小说（14世纪），四大名著之一，在全球拥有超过1亿读者"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "武侯祠是诸葛亮一个人的祠堂",
+          "fact": "武侯祠正门匾额写的是'汉昭烈庙'，刘备是主祭对象，诸葛亮是配享——但因民间对诸葛亮的爱戴更深，俗称'武侯祠'盖过了官称"
+        },
+        {
+          "myth": "《三国演义》就是三国历史",
+          "fact": "《三国演义》'七分史实、三分虚构'——如草船借箭实为孙权所为，空城计正史无载——主持时需注意区分文学形象与史实"
+        }
+      ],
+      "narrative_angles": [
+        "君臣合祀的深意：中国文化中的君臣伦理与民间情感",
+        "三国IP的全球之旅：从《三国演义》到日本动漫、游戏",
+        "鞠躬尽瘁的现代回响：诸葛亮精神的跨时代价值",
+        "武侯祠的古柏：千年古树见证的历史变迁"
+      ]
+    },
+    "embedding_text": "武侯祠 Wuhou Shrine 三国文化 Three Kingdoms 诸葛亮 Zhuge Liang 刘备 Liu Bei 君臣合祀 出师表 三绝碑 223年 蜀汉 Shu Han 三国演义 Romance of the Three Kingdoms 锦里 成都 日本 吉川英治"
+  },
+  {
+    "id": "hist_004",
+    "title_zh": "杜甫草堂",
+    "title_en": "Du Fu Thatched Cottage",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "成都杜甫草堂是唐代大诗人杜甫（712-770）在公元759年冬为避'安史之乱'流寓成都时的故居，他在此居住了近四年，创作了240余首诗，包括《春夜喜雨》《茅屋为秋风所破歌》《蜀相》等不朽名篇。草堂历经宋元明清历代修缮扩建，现为占地近300亩的纪念性园林，是中国文学史上最重要的诗人纪念地之一。杜甫在成都期间的诗作是其'诗史'风格的最成熟体现，而'安得广厦千万间，大庇天下寒士俱欢颜'的千古名句正是在此写就。",
+      "summary_en": "Chengdu's Du Fu Thatched Cottage was the residence of Tang Dynasty master poet Du Fu (712–770) when he fled the An Lushan Rebellion and settled in Chengdu in the winter of 759 CE. Over nearly four years here, he composed more than 240 poems, including immortal works such as 'Happy Rain on a Spring Night,' 'My Thatched Roof Torn Apart by Autumn Wind,' and 'The Temple of the Shu Prime Minister.' Restored and expanded through Song, Yuan, Ming, and Qing dynasties, the cottage now spans nearly 20 hectares as a commemorative garden — one of the most important poet memorials in Chinese literary history. Du Fu's Chengdu-period poems represent the most mature expression of his 'poetic history' style, and his eternal line — 'If only I could have a great mansion with ten thousand rooms, to shelter all the impoverished scholars of the land and make them smile' — was written right here.",
+      "key_facts": [
+        {
+          "zh": "杜甫于759年冬抵达成都，在草堂居住约3年9个月",
+          "en": "Du Fu arrived in Chengdu in winter 759 CE; lived at the cottage for ~3 years and 9 months"
+        },
+        {
+          "zh": "在成都期间创作240余首诗，占其存世诗作约六分之一",
+          "en": "Composed 240+ poems in Chengdu, approximately one-sixth of his surviving corpus"
+        },
+        {
+          "zh": "《茅屋为秋风所破歌》为公元761年作于草堂，历代传诵",
+          "en": "'My Thatched Roof Torn Apart by Autumn Wind' written in 761 CE at the cottage"
+        },
+        {
+          "zh": "杜甫在草堂的生活经费主要依靠友人剑南节度使严武资助",
+          "en": "Du Fu's livelihood at the cottage was largely supported by his friend Yan Wu, the Military Governor of Jiannan"
+        },
+        {
+          "zh": "现草堂为清代嘉庆年间重建，占地近300亩，是全国重点文物保护单位",
+          "en": "The current cottage complex, rebuilt during the Jiaqing reign (Qing Dynasty), covers nearly 20 hectares and is a Major Historical and Cultural Site Protected at the National Level"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "诗史",
+          "en": "Poetic History / Shi Shi",
+          "context": "杜诗以诗记史、以史入诗，被誉为'诗史'——用诗歌记录安史之乱前后社会现实的最高文学成就"
+        },
+        {
+          "zh": "诗圣",
+          "en": "Poet Sage / Shi Sheng",
+          "context": "杜甫在中国文学史上的尊称，强调其诗歌的伦理高度和人格力量"
+        },
+        {
+          "zh": "安史之乱",
+          "en": "An Lushan Rebellion",
+          "context": "755-763年唐朝最大的内乱，导致杜甫流离失所，也催生了他最伟大的诗作"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "杜甫一生穷困潦倒",
+          "fact": "杜甫出身官宦世家，青少年时期生活优裕。在成都期间获得严武资助，居有定所、衣食无忧，是他成年后最安逸的一段时光"
+        },
+        {
+          "myth": "现在的草堂就是杜甫当年住的草房子",
+          "fact": "现草堂为清代重建的园林式纪念建筑群，规模远超杜甫当年的茅屋，原址确切位置已无法确认"
+        }
+      ],
+      "narrative_angles": [
+        "杜甫在成都：从流亡者到'诗圣'的关键四年",
+        "茅屋与世界：一首诗的普世人文关怀",
+        "草堂的千年修缮史：后代为何持续'投资'一位诗人",
+        "杜甫与李白：成都和江油——巴蜀大地上的两个诗歌坐标"
+      ]
+    },
+    "embedding_text": "杜甫草堂 Du Fu Thatched Cottage 杜甫 Du Fu 759年 唐代 安史之乱 诗圣 Poet Sage 诗史 Poetic History 茅屋为秋风所破歌 春夜喜雨 240首诗 成都 严武 清代重建 全国重点文物保护单位 李白"
+  },
+  {
+    "id": "hist_005",
+    "title_zh": "阆中古城",
+    "title_en": "Langzhong Ancient City",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "阆中古城位于四川省南充市，是中国保存最完好的四大古城之一（与平遥、丽江、歙县并列），拥有2300多年建城史。阆中是古代巴国的最后一个都城，也是三国时期张飞镇守巴西郡七年（214-221年）的驻地。古城在唐宋时期达到鼎盛，是中国古代天文学研究中心——落下闳在此编定《太初历》，确定正月为岁首（春节起源于此）。阆中的棋盘式风水格局被建筑学家誉为'中国古代城市选址和规划设计的典范'。",
+      "summary_en": "Langzhong Ancient City, in Nanchong, Sichuan, is one of China's four best-preserved ancient cities (alongside Pingyao, Lijiang, and Shexian), with over 2,300 years of urban history. It was the last capital of the ancient Ba Kingdom and the seat where Zhang Fei governed Baxi Commandery for seven years (214–221 CE) during the Three Kingdoms period. The city flourished in the Tang and Song dynasties as a center of astronomical research — it was here that Luo Xiahong compiled the Taichu Calendar, fixing the first month as the start of the year (the origin of the Spring Festival). Langzhong's grid-based fengshui urban layout has been praised by architectural historians as 'a paradigm of ancient Chinese city siting and planning.'",
+      "key_facts": [
+        {
+          "zh": "建城史2300多年，中国四大保存最完好的古城之一",
+          "en": "Over 2,300 years of urban history; one of China's four best-preserved ancient cities"
+        },
+        {
+          "zh": "古代巴国最后的都城（公元前4世纪）",
+          "en": "Last capital of the ancient Ba Kingdom (4th century BCE)"
+        },
+        {
+          "zh": "落下闳（汉代天文学家）在阆中编定《太初历》，'春节'的历法基础源自阆中",
+          "en": "Luo Xiahong (Han Dynasty astronomer) compiled the Taichu Calendar in Langzhong; the calendrical basis of the Spring Festival traces back here"
+        },
+        {
+          "zh": "张飞镇守阆中七年（214-221年），城内有张飞庙（汉桓侯祠）",
+          "en": "Zhang Fei governed Langzhong for 7 years (214–221 CE); the Zhang Fei Temple (Han Huanhou Shrine) stands within the city"
+        },
+        {
+          "zh": "清代四川省会曾临时设在阆中（1646-1661年），是四川贡院所在地",
+          "en": "Langzhong served as the temporary Sichuan provincial capital (1646–1661) and housed the Sichuan Provincial Civil Service Examination Hall"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "太初历",
+          "en": "Taichu Calendar",
+          "context": "汉武帝太初元年（公元前104年）颁行的历法，落下闳为主要编定者，首次将正月定为岁首"
+        },
+        {
+          "zh": "风水格局",
+          "en": "Fengshui Configuration",
+          "context": "阆中古城四面环山、三面绕水，天然形成'玄武垂头、朱雀翔舞、青龙蜿蜒、白虎驯俯'的理想风水格局"
+        },
+        {
+          "zh": "贡院",
+          "en": "Imperial Examination Hall / Gongyuan",
+          "context": "明清时期举行科举乡试的场所，阆中贡院是四川省保存最完整的清代考棚"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "阆中只是小众古城，不如丽江和平遥重要",
+          "fact": "阆中是四大古城中唯一一个建城史超过2300年的，在天文学史和风水规划史上的学术价值极为独特，是丽江和平遥不具备的"
+        },
+        {
+          "myth": "春节是传统民俗，没有确定的起源地",
+          "fact": "落下闳在《太初历》中确定正月为岁首，被后世称为'春节老人'，阆中因此自称为'春节文化发源地'"
+        }
+      ],
+      "narrative_angles": [
+        "阆中：一部2300年的中国城市百科全书",
+        "春节老人的故乡：落下闳与太初历的故事",
+        "张飞在阆中：从三国猛将到民间信仰",
+        "风水之城：阆中的城市规划如何体现中国空间智慧"
+      ]
+    },
+    "embedding_text": "阆中古城 Langzhong Ancient City 南充 2300年 四大古城 巴国 落下闳 太初历 春节起源 张飞 汉桓侯祠 风水格局 贡院 清代省会 棋盘式布局"
+  },
+  {
+    "id": "hist_006",
+    "title_zh": "安岳石刻",
+    "title_en": "Anyue Stone Carvings",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "安岳石刻位于四川省资阳市安岳县，以'古、多、精、美'著称，是中国石窟艺术在唐代以后持续发展的重要代表。安岳现存石窟和摩崖造像点230余处、造像10万余尊，其中全国重点文物保护单位10处，被文化部命名为'中国民间艺术（石刻）之乡'。安岳石刻以紫竹观音（'东方维纳斯'）最为著名，其'秀骨清像'的唐风宋韵标志着中国佛教造像本土化的最高成就。安岳与大足（重庆大足石刻）构成了中国晚期石窟艺术的姊妹篇。",
+      "summary_en": "The Anyue Stone Carvings, in Anyue County, Ziyang, Sichuan, are renowned for their antiquity, abundance, refinement, and beauty — a major representative of the continued development of Chinese cave-temple art after the Tang Dynasty. Anyue preserves over 230 cave and cliff sculpture sites with more than 100,000 statues, including 10 Major Historical and Cultural Sites Protected at the National Level, and has been designated by the Ministry of Culture as the 'Home of Chinese Folk Art (Stone Carving).' The most celebrated work is the 'Zizhu Guanyin' (Purple Bamboo Avalokiteśvara), hailed as the 'Oriental Venus' — its 'elegant frame and serene countenance' blending Tang elegance and Song refinement marks the pinnacle of the sinicization of Buddhist statuary. Anyue and Dazu (Chongqing's Dazu Rock Carvings) together form the sister masterpieces of China's late-period cave-temple art.",
+      "key_facts": [
+        {
+          "zh": "现存石窟及摩崖造像点230余处，造像10万余尊",
+          "en": "Over 230 cave and cliff sculpture sites, with more than 100,000 statues"
+        },
+        {
+          "zh": "时段涵盖南朝至明清，以唐宋为盛，填补了中国石窟艺术史在唐代以后的叙事空白",
+          "en": "Spans the Southern Dynasties through Ming-Qing, with the Tang-Song period as the zenith; fills the narrative gap in Chinese cave-temple art history after the Tang Dynasty"
+        },
+        {
+          "zh": "紫竹观音（毗卢洞第19号龛）为北宋作品，高约3米，被誉为'东方维纳斯'",
+          "en": "The 'Zizhu Guanyin' (Pilu Cave, Niche 19), a Northern Song work ~3 m tall, is acclaimed as the 'Oriental Venus'"
+        },
+        {
+          "zh": "卧佛院摩崖造像的释迦牟尼涅槃像长达23米，是中国最大的唐代左侧卧佛",
+          "en": "The reclining Buddha at Wofo Yuan, at 23 m in length, is China's largest Tang Dynasty left-lateral reclining Buddha"
+        },
+        {
+          "zh": "与大足石刻共同构成'中国晚期石窟艺术'的双璧",
+          "en": "Together with Dazu Rock Carvings, forms the twin jewels of China's late-period cave-temple art"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "摩崖造像",
+          "en": "Cliff Sculpture / Rock Relief",
+          "context": "直接在天然岩壁上雕刻的佛教造像，与凿洞开窟的'石窟'有别"
+        },
+        {
+          "zh": "紫竹观音",
+          "en": "Purple Bamboo Guanyin / Zizhu Avalokiteśvara",
+          "context": "安岳最著名的观音造像，以侧身坐姿、飘逸衣纹和世俗化面容著称，被誉为中国佛教造像审美本土化的巅峰"
+        },
+        {
+          "zh": "秀骨清像",
+          "en": "Elegant Frame and Serene Countenance",
+          "context": "中国美术史概念，指魏晋至唐宋时期对人物造像的审美理想——清瘦秀丽、风骨内敛"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "中国石窟只看敦煌、云冈、龙门就够了",
+          "fact": "中国石窟艺术并非'唐代以后就衰落'——安岳和大足石刻证明了石窟艺术在10-13世纪（唐宋）经历了本土化的新高峰"
+        },
+        {
+          "myth": "紫竹观音真的是'维纳斯'",
+          "fact": "'东方维纳斯'是20世纪西方学者给的美誉，意在类比其美学高度。但紫竹观音的审美基础是唐宋佛教世俗化，与古希腊维纳斯的艺术传统完全不同"
+        }
+      ],
+      "narrative_angles": [
+        "被低估的安岳：中国石窟艺术史的'下半场'",
+        "紫竹观音：一尊北宋造像如何成为'东方维纳斯'",
+        "安岳与大足：姊妹石窟的对话与比较",
+        "散落在田野的国宝：安岳石刻的分散保护挑战"
+      ]
+    },
+    "embedding_text": "安岳石刻 Anyue Stone Carvings 资阳 230处 10万尊 石窟艺术 摩崖造像 紫竹观音 东方维纳斯 北宋 卧佛院 释迦牟尼涅槃像 23米 唐代 大足石刻 晚期石窟艺术 秀骨清像 全国重点文物保护单位"
+  },
+  {
+    "id": "hist_007",
+    "title_zh": "茶马古道（川藏线）",
+    "title_en": "Tea Horse Road (Sichuan-Tibet Route)",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "茶马古道川藏线（雅安—康定—昌都—拉萨）是世界上海拔最高、通行难度最大的古代贸易通道之一，与'南方丝绸之路'多有重合。自唐代起，四川雅安的茶叶（主要是藏茶）被马帮驮运至青藏高原，换取藏区的战马和药材，形成了'以茶易马'的贸易体系，持续了1300多年。茶马古道不仅输送了物资，更传播了语言、宗教、建筑和饮食文化，是汉藏民族交往交流交融的血脉通道，也是中国线性文化遗产的重要组成部分。",
+      "summary_en": "The Sichuan-Tibet route of the Ancient Tea Horse Road (Ya'an–Kangding–Changdu–Lhasa) is one of the highest-altitude and most challenging ancient trade routes in the world, overlapping substantially with the Southern Silk Road. From the Tang Dynasty onward, Ya'an tea (primarily Tibetan tea) was carried by horse caravans onto the Tibetan Plateau in exchange for warhorses and medicinal materials — a 'tea-for-horses' trade system that lasted over 1,300 years. The Tea Horse Road transported more than goods: it transmitted language, religion, architecture, and culinary culture, serving as the lifeblood corridor of Han-Tibetan interaction, exchange, and integration. It is a vital component of China's linear cultural heritage.",
+      "key_facts": [
+        {
+          "zh": "茶叶贸易始于唐代（7世纪），'茶马互市'为官方制度确立于宋代",
+          "en": "Tea trade began in the Tang Dynasty (7th century); 'tea-horse trade' was institutionalized as official policy in the Song Dynasty"
+        },
+        {
+          "zh": "雅安是川藏茶马古道的起点，蒙顶山茶为历代贡茶",
+          "en": "Ya'an is the starting point of the Sichuan-Tibet Tea Horse Road; Mengding Mountain tea served as imperial tribute for successive dynasties"
+        },
+        {
+          "zh": "康定（打箭炉）是茶马互市的第一大中转站，'康定情歌'所唱的正是马帮往来之城",
+          "en": "Kangding (Dajianlu) was the largest transit hub of the tea-horse trade; the 'Kangding Love Song' sings of this caravan city"
+        },
+        {
+          "zh": "背夫文化：雅安至康定段因地势险峻无法使用驮马，全靠人力背夫背茶翻山",
+          "en": "Porter culture: the Ya'an–Kangding section was too treacherous for pack horses, so all tea was carried on human backs over the mountains"
+        },
+        {
+          "zh": "茶马古道是UNESCO世界遗产预备项目，与丝绸之路共享线性文化遗产的概念框架",
+          "en": "The Tea Horse Road is a UNESCO World Heritage Tentative List item, sharing the conceptual framework of linear cultural heritage with the Silk Road"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "茶马互市",
+          "en": "Tea-Horse Trade / Cha-Ma Hu Shi",
+          "context": "中国古代中央政府以茶叶换取边疆游牧民族马匹的官方贸易制度，始于唐、定型于宋、延续至清"
+        },
+        {
+          "zh": "藏茶",
+          "en": "Tibetan Tea / Zang Cha",
+          "context": "四川雅安等地生产的后发酵黑茶，是藏族同胞生活中不可或缺的日常饮品，'宁可三日无粮，不可一日无茶'"
+        },
+        {
+          "zh": "背夫",
+          "en": "Tea Porter / Beifu",
+          "context": "茶马古道川藏线上以人力背负茶包翻山越岭的劳动者，每人背负可达150公斤，是世界上最艰苦的运输方式之一"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "茶马古道只是一条'路'",
+          "fact": "茶马古道是由主线、支线、水路、索桥等构成的复杂交通网络，跨越川滇青藏四省区，不同时期使用不同线路"
+        },
+        {
+          "myth": "丝绸之路比茶马古道重要",
+          "fact": "两者功能不同——丝绸之路以丝绸为主、东西向连接欧亚大陆；茶马古道以茶叶为主、南北向连接汉藏文化圈——后者对中华民族共同体形成的意义不可替代"
+        }
+      ],
+      "narrative_angles": [
+        "人背出来的古道：雅安背夫的血汗与记忆",
+        "茶与马：一种贸易如何改变两个文明",
+        "康定情歌的背后：一座贸易城市的浪漫与沧桑",
+        "茶马古道申遗：与丝绸之路的对话与区分"
+      ]
+    },
+    "embedding_text": "茶马古道 Tea Horse Road 川藏线 雅安 康定 昌都 拉萨 茶马互市 唐代 宋代 藏茶 Tibetan Tea 背夫 porter 蒙顶山 打箭炉 康定情歌 线性文化遗产 UNESCO 南方丝绸之路 汉藏交流"
+  },
+  {
+    "id": "hist_008",
+    "title_zh": "剑门关",
+    "title_en": "Jianmen Pass",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "剑门关位于四川省广元市剑阁县，是蜀道金牛道上最险要的关隘，素有'剑门天下险'和'一夫当关，万夫莫开'之誉。大剑山七十二峰如利剑般直插云霄，中间一条仅数十米宽的天然隘口连接南北——这是地质史上造山运动形成的天然断层，被古人称为'蜀北屏障'。三国时期，诸葛亮在此修筑关楼、驻兵设防，此后剑门关成为兵家必争之地，历史上在此发生过大小百余次战役。",
+      "summary_en": "Jianmen Pass, in Jiange County, Guangyuan, Sichuan, is the most strategically formidable pass on the Jinniu Road of the Shu Roads network, famed as 'the most perilous pass under heaven' and 'a pass that one man can hold against ten thousand.' The 72 peaks of the Great Jian Mountains soar like swords into the clouds, leaving a natural cleft only a few dozen meters wide connecting north and south — a fault created by tectonic movements in geological history, known since ancient times as the 'Northern Shield of Shu.' During the Three Kingdoms period, Zhuge Liang built the pass tower and garrisoned troops here; thereafter, Jianmen Pass became a strategic battleground, witnessing over a hundred battles throughout history.",
+      "key_facts": [
+        {
+          "zh": "大剑山七十二峰绵延约30公里，最高峰海拔约1200米",
+          "en": "The 72 peaks of the Great Jian Mountains stretch ~30 km; highest peak ~1,200 m"
+        },
+        {
+          "zh": "诸葛亮于蜀汉建兴年间（223-237年）在此修筑关楼、设剑门关尉",
+          "en": "Zhuge Liang built the pass tower and established the Jianmen Pass Command during the Shu Han Jianxing era (223–237 CE)"
+        },
+        {
+          "zh": "历史上在剑门关发生大小百余次战役，从未被从正面攻破",
+          "en": "Over a hundred battles have been fought at Jianmen Pass throughout history; it has never been breached from the front"
+        },
+        {
+          "zh": "李白《蜀道难》中'剑阁峥嵘而崔嵬，一夫当关，万夫莫开'描写的就是剑门关",
+          "en": "Li Bai's 'Hard Roads to Shu' — 'Jian Pavilion, rugged and towering; one man holds the pass, ten thousand cannot break through' — describes Jianmen Pass"
+        },
+        {
+          "zh": "1935年红军长征强渡嘉陵江后攻占剑门关，是红军在四川的重要军事行动",
+          "en": "After crossing the Jialing River in 1935, the Red Army captured Jianmen Pass during the Long March — a significant military action in Sichuan"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "剑门天下险",
+          "en": "Jianmen — the Most Perilous Under Heaven",
+          "context": "与'峨眉天下秀、青城天下幽、夔门天下雄'并列蜀中四绝，概括了四川四种极致的山水审美类型"
+        },
+        {
+          "zh": "一夫当关，万夫莫开",
+          "en": "One Man Holds the Pass Against Ten Thousand",
+          "context": "中国最著名的关隘成语，出自李白《蜀道难》，形容关隘地势的极端险要"
+        },
+        {
+          "zh": "金牛道",
+          "en": "Jinniu Road / Golden Ox Road",
+          "context": "蜀道最重要的一条线路，从汉中经剑门关入蜀，开凿于战国时期"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "剑门关就是一座城门楼",
+          "fact": "剑门关是一个完整的防御体系——包括关楼、七十二峰的天然屏障、金牛峡隘口、以及数公里长的栈道与城墙组合"
+        },
+        {
+          "myth": "剑门关从未被攻破",
+          "fact": "剑门关确实从未从正面被攻破，但历史上数次从侧后绕道被偷袭得手，如三国末年邓艾偷渡阴平绕过剑门关灭蜀"
+        }
+      ],
+      "narrative_angles": [
+        "剑门七十二峰：地质运动如何制造了一道天然防线",
+        "正面不可破：剑门关军事史中的攻防博弈",
+        "李白的剑阁：诗歌如何塑造了一个地理符号",
+        "邓艾偷渡阴平：剑门关唯一一次'被绕过'的失败"
+      ]
+    },
+    "embedding_text": "剑门关 Jianmen Pass 广元 剑阁 金牛道 蜀道 大剑山 七十二峰 诸葛亮 三国 蜀汉 一夫当关万夫莫开 李白 蜀道难 兵家必争之地 红军长征 嘉陵江 邓艾 阴平"
+  },
+  {
+    "id": "hist_009",
+    "title_zh": "泸定桥",
+    "title_en": "Luding Bridge",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "泸定桥位于四川省甘孜藏族自治州泸定县，横跨大渡河，建于清康熙四十四年（1705年），是历史上连接四川与西藏的重要交通枢纽。桥长103米、宽3米，由13根铁链（9根底链、4根扶手链）组成，铁链总重约40吨，是清代铁索桥工程技术的杰出代表。1935年5月29日，红军长征途中在此进行了著名的'飞夺泸定桥'战斗——22名突击队员冒着枪林弹雨攀爬铁链夺下桥头堡，成为长征中最具传奇色彩的军事行动之一。",
+      "summary_en": "Luding Bridge, spanning the Dadu River in Luding County, Ganzi Tibetan Autonomous Prefecture, Sichuan, was built in the 44th year of the Kangxi reign (1705 CE) as a vital transportation link between Sichuan and Tibet. The bridge is 103 m long and 3 m wide, composed of 13 iron chains (9 floor chains, 4 handrail chains) with a total weight of ~40 tons — an outstanding example of Qing Dynasty iron-chain suspension bridge engineering. On May 29, 1935, during the Long March, the Red Army carried out the legendary 'Capture of Luding Bridge' here: 22 commandos crawled along the chains under heavy enemy fire to seize the bridgehead, making it one of the most storied military actions of the Long March.",
+      "key_facts": [
+        {
+          "zh": "建于1705年（清康熙四十四年），为康熙皇帝下令建造的'官桥'",
+          "en": "Built in 1705 (44th year of Kangxi reign); an 'imperial bridge' commissioned by the Kangxi Emperor"
+        },
+        {
+          "zh": "桥长103米，宽3米，由13根铁链组成，铁链总重约40吨",
+          "en": "103 m long, 3 m wide; 13 iron chains totaling ~40 tons"
+        },
+        {
+          "zh": "1935年5月29日红军飞夺泸定桥——22名突击队员中4人牺牲，18人幸存",
+          "en": "May 29, 1935: the Red Army captured Luding Bridge — 4 of the 22 commandos died; 18 survived"
+        },
+        {
+          "zh": "康熙御题'泸定桥'三字碑刻至今保存完好",
+          "en": "The bridge name stele personally inscribed by the Kangxi Emperor is still well-preserved"
+        },
+        {
+          "zh": "为全国重点文物保护单位，也是全国爱国主义教育示范基地",
+          "en": "Designated a Major Historical and Cultural Site Protected at the National Level and a National Patriotic Education Demonstration Base"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "铁索桥",
+          "en": "Iron-Chain Suspension Bridge",
+          "context": "以铁链为承重和桥面结构的桥梁类型，泸定桥是中国现存最著名的清代铁索桥"
+        },
+        {
+          "zh": "飞夺泸定桥",
+          "en": "Capture of Luding Bridge / Flying Seizure of Luding Bridge",
+          "context": "红军长征中最著名的战斗之一，已成为中国革命军事史的标志性事件"
+        },
+        {
+          "zh": "大渡河",
+          "en": "Dadu River",
+          "context": "岷江的最大支流，发源于青海果洛山，在乐山汇入岷江，全长1062公里"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "飞夺泸定桥时桥上木板已被敌方全部拆除",
+          "fact": "敌方确实拆除了大部分木板，但突击队员在攀爬铁索的同时携带木板铺设，后续部队才能通过——这是'夺'的关键环节"
+        },
+        {
+          "myth": "泸定桥的建造只是为了方便商旅",
+          "fact": "泸定桥的首要功能是军事——康熙为加强对藏区的控制而修建：'平定西炉之乱后，以泸水为川藏要津，宜建桥以便行旅兼资控御'"
+        }
+      ],
+      "narrative_angles": [
+        "康熙的桥：泸定桥在清代川藏治理中的战略意义",
+        "22勇士：飞夺泸定桥的真实历史与记忆重构",
+        "铁链上的工程奇迹：古代铁索桥技术如何跨越百米大渡河",
+        "从'官桥'到'红桥'：一座桥的三百年身份变迁"
+      ]
+    },
+    "embedding_text": "泸定桥 Luding Bridge 大渡河 Dadu River 1705年 康熙 铁索桥 13根铁链 103米 飞夺泸定桥 1935年 红军长征 22勇士 全国重点文物保护单位 川藏交通 甘孜 爱国主义教育"
+  },
+  {
+    "id": "hist_010",
+    "title_zh": "自贡恐龙博物馆",
+    "title_en": "Zigong Dinosaur Museum",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "自贡恐龙博物馆位于自贡市大安区，是世界三大恐龙遗址博物馆之一（与加拿大艾伯塔省恐龙公园、美国犹他州恐龙国家保护区并列），建在大山铺恐龙化石群的发掘原址上。1979年在此发现大规模的中侏罗世（约1.6亿年前）恐龙化石群，已发掘出200多个化石个体，涵盖鱼类、两栖类、爬行类、哺乳类等多个门类，其中天府峨眉龙、太白华阳龙等为自贡特有的命名物种。自贡恐龙化石群的规模和完整性在世界上极为罕见。",
+      "summary_en": "The Zigong Dinosaur Museum, in Da'an District, Zigong, is one of the world's three great dinosaur site museums (alongside Canada's Dinosaur Provincial Park and the USA's Dinosaur National Monument), built directly above the Dashanpu Dinosaur Fossil Quarry. Discovered in 1979, the Middle Jurassic (~160 million years ago) fossil beds have yielded over 200 individual fossil specimens spanning fish, amphibians, reptiles, and mammals, including Zigong-endemic named species such as Omeisaurus tianfuensis and Huayangosaurus taibaii. The scale and completeness of the Zigong dinosaur fossil assemblage are exceptionally rare globally.",
+      "key_facts": [
+        {
+          "zh": "世界三大恐龙遗址博物馆之一，建在发掘原址上",
+          "en": "One of the world's three great dinosaur site museums; built directly on the excavation site"
+        },
+        {
+          "zh": "1979年发现大山铺恐龙化石群，中侏罗世约1.6亿年前",
+          "en": "Dashanpu fossil beds discovered in 1979; Middle Jurassic, ~160 million years ago"
+        },
+        {
+          "zh": "已发掘200多个化石个体，完整度超过70%的骨架有30多具",
+          "en": "Over 200 fossil individuals excavated; 30+ skeletons with >70% completeness"
+        },
+        {
+          "zh": "天府峨眉龙（体长约20米）是自贡发现的最具代表性的蜥脚类恐龙",
+          "en": "Omeisaurus tianfuensis (~20 m long) is the most representative sauropod discovered in Zigong"
+        },
+        {
+          "zh": "自贡是中国最重要的侏罗纪恐龙化石产地，被称为'恐龙之乡'",
+          "en": "Zigong is China's most important Jurassic dinosaur fossil locality, known as the 'Hometown of Dinosaurs'"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "中侏罗世",
+          "en": "Middle Jurassic",
+          "context": "地质年代概念，约1.74-1.63亿年前，是恐龙演化的关键时期"
+        },
+        {
+          "zh": "遗址博物馆",
+          "en": "Site Museum / In-Situ Museum",
+          "context": "直接在发掘现场建立的博物馆，观众在化石出土的原位观看"
+        },
+        {
+          "zh": "蜥脚类",
+          "en": "Sauropod",
+          "context": "恐龙的一大类群，以长颈长尾、四足行走、植食性为特征，是地球上出现过的最大陆地动物"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "霸王龙等著名恐龙在自贡也有发现",
+          "fact": "霸王龙（Tyrannosaurus rex）生活在白垩纪晚期（约6800-6600万年前）的北美，自贡的恐龙是中侏罗世（约1.6亿年前），时间和地域都不同"
+        },
+        {
+          "myth": "恐龙灭绝是一颗小行星瞬间造成的",
+          "fact": "自贡的恐龙化石群展示的是恐龙'在世'时的繁荣景象——中侏罗世远在白垩纪末大灭绝之前约1亿年"
+        }
+      ],
+      "narrative_angles": [
+        "一亿六千万年前的四川：中侏罗世恐龙世界复原",
+        "大山铺的奇迹：一个建筑工地如何变成世界级恐龙遗址",
+        "恐龙之乡的品牌之路：自贡如何将化石资源转化为文化IP",
+        "博物馆即遗址：现场保护的考古学伦理"
+      ]
+    },
+    "embedding_text": "自贡恐龙博物馆 Zigong Dinosaur Museum 大山铺 中侏罗世 Middle Jurassic 1.6亿年 恐龙之乡 天府峨眉龙 Omeisaurus 华阳龙 Huayangosaurus 遗址博物馆 1979年 世界三大恐龙遗址"
+  },
+  {
+    "id": "hist_011",
+    "title_zh": "李白故里",
+    "title_en": "Li Bai's Hometown (Jiangyou)",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "江油市（隶属绵阳市）是唐代大诗人李白（701-762）的故乡。李白青少年时期（5-25岁）在江油青莲镇度过，他在这里读书、习剑、修道，形成了'安能摧眉折腰事权贵'的自由人格和瑰丽想象的美学底色。江油保存有李白故居（陇西院）、李白纪念馆、太白公园、窦圌山等与李白文化密切相关的遗址。李白的许多名篇直接描绘蜀地山水——'蜀道之难，难于上青天'（《蜀道难》）、'峨眉山月半轮秋'（《峨眉山月歌》）——这些作品的灵感源泉正是巴蜀大地的山河气韵。",
+      "summary_en": "Jiangyou (under Mianyang) is the hometown of Tang Dynasty master poet Li Bai (701–762). Li Bai spent his formative years (ages 5–25) in Qinglian Town, Jiangyou, where he studied, practiced swordsmanship, and cultivated Taoist spirituality — forging the free-spirited personality that would declare 'How could I stoop and bow to men in power?' and laying the aesthetic foundation for his magnificent imagination. Jiangyou preserves Li Bai's former residence (Longxi Yuan), Li Bai Memorial Hall, Taibai Park, and Mount Douchui — all intimately linked to Li Bai's legacy. Many of Li Bai's most celebrated poems directly depict Sichuan's landscapes — 'Hard are the roads to Shu, harder than climbing to the sky' ('Hard Roads to Shu'), 'The half-round autumn moon over Mount Emei' ('Mount Emei Moon Song') — their inspiration rooted in the mountains and rivers of Ba-Shu.",
+      "key_facts": [
+        {
+          "zh": "李白（701-762年）祖籍陇西，出生地有争议（碎叶/四川），但5-25岁确在江油生活",
+          "en": "Li Bai (701–762 CE) was of Longxi ancestry; birthplace disputed (Suyab/Sichuan), but ages 5–25 were unquestionably spent in Jiangyou"
+        },
+        {
+          "zh": "现存李白文化遗址：陇西院（故居）、太白祠、粉竹楼、洗墨池、磨针溪等",
+          "en": "Surviving sites: Longxi Yuan (former residence), Taibai Shrine, Fenzhu Tower, Ink-Washing Pool, Needle-Grinding Stream"
+        },
+        {
+          "zh": "江油李白纪念馆是中国最大的李白专题博物馆，收藏文物和资料4000余件",
+          "en": "The Jiangyou Li Bai Memorial Hall is China's largest Li Bai thematic museum, housing over 4,000 artifacts and documents"
+        },
+        {
+          "zh": "李白在四川期间已创作了《访戴天山道士不遇》《登锦城散花楼》等早期名篇",
+          "en": "During his Sichuan years, Li Bai had already written early masterpieces such as 'Visiting a Taoist on Mount Daitian' and 'Climbing the Flower-Scattering Tower in Jincheng'"
+        },
+        {
+          "zh": "李白的诗作被翻译为30多种语言，《静夜思》可能是世界上读者最多的中国古诗",
+          "en": "Li Bai's poetry has been translated into 30+ languages; 'Quiet Night Thoughts' may be the most widely read classical Chinese poem in the world"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "诗仙",
+          "en": "Poet Immortal / Shi Xian",
+          "context": "李白在中国文学史上最广为接受的称号，强调其诗歌超凡脱俗、自由奔放、'非人间所能为'的特质"
+        },
+        {
+          "zh": "青莲居士",
+          "en": "The Blue Lotus Recluse / Qinglian Jushi",
+          "context": "李白的自号，'青莲'既指其故居青莲镇，也是佛教中清净高洁的象征"
+        },
+        {
+          "zh": "浪漫主义",
+          "en": "Romanticism",
+          "context": "虽然早于欧洲浪漫主义运动千年，但李白诗歌的瑰丽想象、个人主义和对自然的崇拜被现代学者广泛定义为'中国古典浪漫主义'"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "李白是天生奇才，不用学习",
+          "fact": "'铁杵磨成针'的典故正是出于江油——老妇人用铁杵磨针的故事激励了少年李白刻苦读书，这一传说恰好说明了后天勤学的重要性"
+        },
+        {
+          "myth": "李白是汉族诗人",
+          "fact": "李白出生于西域（碎叶城，今吉尔吉斯斯坦境内），家族可能有胡人血统，其文化身份本身就是跨文化交流的产物"
+        }
+      ],
+      "narrative_angles": [
+        "李白为什么离开四川？蜀中文脉对一位天才的馈赠与局限",
+        "铁杵磨成针：一个励志传说背后的文化建构",
+        "从江油到世界：李白诗歌的全球翻译与接受史",
+        "李白与杜甫：两位大诗人的巴蜀渊源比较"
+      ]
+    },
+    "embedding_text": "李白故里 Li Bai Jiangyou 绵阳 唐代 诗仙 Poet Immortal 青莲居士 江油 青莲镇 陇西院 铁杵磨成针 蜀道难 峨眉山月歌 浪漫主义 杜甫 中外文化交流"
+  },
+  {
+    "id": "hist_012",
+    "title_zh": "四川保路运动——辛亥革命的导火索",
+    "title_en": "Sichuan Railway Protection Movement: The Trigger of the 1911 Revolution",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "1911年四川保路运动是辛亥革命的直接导火索。清政府将川汉铁路筑路权收归国有并抵押给外国银行，激起四川民众大规模抗议。9月7日，四川总督赵尔丰下令开枪镇压请愿群众，制造了成都血案。武昌起义的爆发与保路运动导致的湖北新军入川镇压有直接关联。人民公园内的辛亥秋保路死事纪念碑至今矗立，是这段历史的见证。",
+      "summary_en": "The 1911 Sichuan Railway Protection Movement was the direct trigger of the Xinhai Revolution. When the Qing government nationalized the Sichuan-Hankou Railway rights and mortgaged them to foreign banks, massive protests erupted across Sichuan. On September 7, Governor-General Zhao Erfeng ordered troops to fire on petitioners, creating the Chengdu Massacre. The Wuchang Uprising was directly linked to the Railway Protection Movement. The Monument to the Martyrs of the Railway Protection Movement still stands in People's Park.",
+      "key_facts": [
+        {
+          "zh": "1911年9月7日成都血案",
+          "en": "Chengdu Massacre on September 7, 1911"
+        },
+        {
+          "zh": "辛亥秋保路死事纪念碑位于成都人民公园",
+          "en": "Monument stands in Chengdu People's Park"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "保路运动",
+          "en": "Railway Protection Movement",
+          "context": "1911年四川民众反对清政府将铁路收归国有的爱国运动"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "辛亥革命只是武昌起义",
+          "fact": "四川保路运动是武昌起义的直接导火索"
+        }
+      ],
+      "narrative_angles": [
+        "一座纪念碑背后的中国现代化转折",
+        "铁路、民意与革命：保路运动的全球史视角"
+      ]
+    },
+    "embedding_text": "保路运动 Railway Protection Movement 辛亥革命 1911年 成都血案 人民公园 纪念碑 川汉铁路 赵尔丰 武昌起义"
+  },
+  {
+    "id": "hist_013",
+    "title_zh": "成都交子——世界上最早的纸币",
+    "title_en": "Chengdu Jiaozi: The World's Earliest Paper Money",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "交子诞生于北宋时期的成都（约1023年），是世界上最早的官方纸币。当时四川使用铁钱，重量大不便于携带，成都16家富商联合发行交子作为替代。后由官府接管，设立益州交子务，成为世界上第一个官方纸币发行机构。交子的防伪技术包括复杂的图案、红黑双色套印和'交子铺'的铺保制度。它比欧洲最早的纸币（瑞典1661年）早了600多年。",
+      "summary_en": "Jiaozi, born in Chengdu during the Northern Song Dynasty (circa 1023), is the world's earliest official paper currency. At the time, Sichuan used heavy iron coins; 16 wealthy Chengdu merchants jointly issued jiaozi as a lightweight alternative. The government later took over, establishing the Yizhou Jiaozi Bureau — the world's first official paper money issuing institution. Jiaozi's anti-counterfeiting features included complex patterns, red-and-black two-color printing, and a merchant guarantee system. It predates Europe's earliest paper money (Sweden, 1661) by over 600 years.",
+      "key_facts": [
+        {
+          "zh": "约1023年诞生于成都，世界最早的官方纸币",
+          "en": "Born in Chengdu circa 1023, world's earliest official paper money"
+        },
+        {
+          "zh": "比欧洲最早纸币早600多年",
+          "en": "Predates Europe's earliest paper money by over 600 years"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "交子",
+          "en": "Jiaozi / Exchange Medium",
+          "context": "北宋时期在四川出现的纸质信用货币"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "纸币是西方发明的",
+          "fact": "中国成都的交子是世界上最早的官方纸币，比西方早600多年"
+        }
+      ],
+      "narrative_angles": [
+        "一张纸改变世界：交子的金融革命",
+        "为什么是成都？纸币诞生的经济地理学",
+        "从交子到数字人民币：中国货币的千年演进"
+      ]
+    },
+    "embedding_text": "交子 Jiaozi 纸币 paper money 北宋 成都 1023年 益州交子务 世界上最早的纸币 金融史 铁钱 防伪"
+  },
+  {
+    "id": "hist_014",
+    "title_zh": "四川袍哥文化",
+    "title_en": "Sichuan Paoge (Brotherhood) Culture",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "袍哥是清代至民国时期四川最庞大的民间秘密结社组织，鼎盛时期四川成年男性中超过半数加入袍哥。袍哥源于明末清初的反清复明组织，后演变为兼具互助、仲裁、社交功能的民间社会网络。袍哥有严格的帮规和暗语体系，'义'字是其核心价值。茶馆是袍哥'码头'的主要活动场所，这也是四川茶馆文化兴盛的社会基础之一。1949年后袍哥组织逐渐消亡，但其讲义气、重人情的社会心理至今影响着四川人的性格。",
+      "summary_en": "Paoge was the largest secret society in Sichuan from the Qing Dynasty through the Republic of China era. At its peak, over half of adult males in Sichuan were members. Originating from anti-Qing resistance in the late Ming, Paoge evolved into a civil network combining mutual aid, arbitration, and social functions. With strict codes of conduct and a secret argot system, yi (righteousness/brotherhood) was its core value. Teahouses served as Paoge docks (matou), which partly explains the flourishing of Sichuan teahouse culture. The organizations gradually dissolved after 1949, but their values of brotherhood and human connection still influence Sichuan's social character.",
+      "key_facts": [
+        {
+          "zh": "鼎盛时期四川成年男性超半数加入袍哥",
+          "en": "At its peak, over half of Sichuan adult males were Paoge members"
+        },
+        {
+          "zh": "茶馆是袍哥码头的主要活动场所",
+          "en": "Teahouses were the primary venues for Paoge docks"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "袍哥",
+          "en": "Paoge / Brotherhood Society",
+          "context": "四川民间秘密结社组织，清代至民国最具影响力的社会网络之一"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "袍哥就是黑社会",
+          "fact": "袍哥虽有暴力面，但其核心功能是民间互助和基层社会管理，与当代黑社会概念不同"
+        }
+      ],
+      "narrative_angles": [
+        "袍哥与茶馆：四川公共空间的独特基因",
+        "义字当头：袍哥精神与四川人的社会性格"
+      ]
+    },
+    "embedding_text": "袍哥 Paoge 秘密结社 四川 清代 民国 茶馆 码头 义气 社会网络 帮规 暗语"
+  },
+  {
+    "id": "hist_015",
+    "title_zh": "成渝铁路——新中国第一条自主修建的铁路",
+    "title_en": "Chengdu-Chongqing Railway: The First Railway Independently Built by New China",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "成渝铁路连接成都与重庆，全长505公里，1952年7月1日全线通车，是新中国成立后自主修建的第一条铁路。清末以来成渝铁路多次筹建未果——保路运动的导火索正是这条铁路。从1903年提出到1952年通车，成渝铁路的百年筑路史就是四川现代化进程的缩影。今天的成渝高铁将两地通行时间缩短至1小时，成渝中线高铁建成后将压缩至约50分钟。",
+      "summary_en": "The Chengdu-Chongqing Railway, connecting the two cities over 505 km, opened on July 1, 1952, as the first railway independently built by the People's Republic of China. Its construction had been attempted since the late Qing Dynasty — the Railway Protection Movement, which triggered the 1911 Revolution, was fought over this very line. From its first proposal in 1903 to its opening in 1952, the century-long history of this railway mirrors Sichuan's modernization journey. Today, the Chengdu-Chongqing High-Speed Railway has reduced travel time to just one hour.",
+      "key_facts": [
+        {
+          "zh": "1952年7月1日全线通车，全长505公里",
+          "en": "Opened July 1, 1952; 505 km long"
+        },
+        {
+          "zh": "从1903年提出到1952年通车，历时近半个世纪",
+          "en": "From proposal in 1903 to completion in 1952, nearly half a century"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "成渝经济圈",
+          "en": "Chengdu-Chongqing Economic Circle",
+          "context": "以成都和重庆为核心的西部地区最大城市群"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "成渝铁路只是普通铁路线",
+          "fact": "它是新中国自主修建的第一条铁路，也是保路运动的历史终点"
+        }
+      ],
+      "narrative_angles": [
+        "一条铁路的百年梦想：从保路运动到高铁时代",
+        "成渝双城记：铁轨上的城市关系史"
+      ]
+    },
+    "embedding_text": "成渝铁路 Chengdu-Chongqing Railway 1952年 505公里 新中国 保路运动 成渝高铁 成渝经济圈 现代化"
+  },
+  {
+    "id": "hist_016",
+    "title_zh": "蜀汉与诸葛亮治蜀",
+    "title_en": "Shu Han and Zhuge Liang's Governance of Shu",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "蜀汉（221-263年）是三国时期由刘备在成都建立的政权，诸葛亮为丞相，以成都为国都。诸葛亮治蜀期间，推行法治、重视农业、发展蜀锦产业（'决敌之资，唯仰锦耳'）、开发南中（今云南贵州）、改良连弩和木牛流马等军用技术。成都平原的水利设施在蜀汉时期得到系统维护，都江堰设有专职堰官。诸葛亮'鞠躬尽瘁、死而后已'的精神成为中华文化中最具感染力的人格典范之一。",
+      "summary_en": "Shu Han (221-263 CE) was a Three Kingdoms state founded by Liu Bei in Chengdu, with Zhuge Liang as Chancellor. During his governance, Zhuge Liang promoted rule of law, agriculture, the Shu brocade industry, development of Nanzhong (modern Yunnan-Guizhou), and military innovations such as the repeating crossbow and wooden ox and flowing horse. The Dujiangyan irrigation system was systematically maintained with a dedicated officer. Zhuge Liang's spirit of sparing no effort until death remains one of the most influential models of character in Chinese culture.",
+      "key_facts": [
+        {
+          "zh": "蜀汉以成都为国都，存续42年（221-263年）",
+          "en": "Shu Han lasted 42 years (221-263 CE) with Chengdu as capital"
+        },
+        {
+          "zh": "都江堰在蜀汉时期设有专职堰官维护",
+          "en": "Dujiangyan had a dedicated officer during the Shu Han period"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "鞠躬尽瘁，死而后已",
+          "en": "Spare no effort until death",
+          "context": "诸葛亮《后出师表》中的名句，成为中国知识分子最高人格追求的象征"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "诸葛亮是神化的传说人物",
+          "fact": "诸葛亮是真实历史人物，《三国志》有明确记载，其治国方略和科技贡献均有史料佐证"
+        }
+      ],
+      "narrative_angles": [
+        "诸葛亮的成都十年：一位治国者的遗产",
+        "蜀锦与蜀汉经济：古代文化产业的雏形"
+      ]
+    },
+    "embedding_text": "蜀汉 Shu Han 诸葛亮 Zhuge Liang 刘备 成都 三国 鞠躬尽瘁 蜀锦 都江堰 法治 南中"
+  },
+  {
+    "id": "hist_017",
+    "title_zh": "四川的客家移民文化——洛带古镇",
+    "title_en": "Sichuan Hakka Migrant Culture: Luodai Ancient Town",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "洛带古镇位于成都龙泉驿区，是中国西部最大的客家聚居区。清初湖广填四川的移民大潮中，大量客家人从广东、福建、江西迁入四川。洛带的客家人至今保留着客家方言、围楼建筑和祭祖习俗。博客楼（客家土楼）是洛带的标志性建筑。'湖广填四川'是中国历史上规模最大的人口迁移之一，深刻改变了四川的人口结构、语言面貌和饮食文化。",
+      "summary_en": "Luodai Ancient Town, in Chengdu's Longquanyi District, is the largest Hakka settlement in western China. During the early Qing Huguang Fills Sichuan migration wave, large numbers of Hakka people moved from Guangdong, Fujian, and Jiangxi into Sichuan. Luodai's Hakka community still preserves the Hakka dialect, tulou architecture, and ancestral worship customs. The Hakka Tulou (Blog Building) is Luodai's landmark. Huguang Fills Sichuan was one of the largest population migrations in Chinese history, profoundly reshaping Sichuan's demographics, language landscape, and culinary culture.",
+      "key_facts": [
+        {
+          "zh": "洛带是中国西部最大的客家聚居区",
+          "en": "Luodai is the largest Hakka settlement in western China"
+        },
+        {
+          "zh": "湖广填四川从清初持续约100年",
+          "en": "Huguang Fills Sichuan migration lasted about 100 years from the early Qing"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "湖广填四川",
+          "en": "Huguang Fills Sichuan",
+          "context": "清代初期大规模移民四川的历史事件"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "四川人都是本地土著后代",
+          "fact": "今天的四川人大部分是湖广填四川移民的后代"
+        }
+      ],
+      "narrative_angles": [
+        "湖广填四川：一场改变四川面貌的人口大迁移",
+        "客家人与四川文化融合的300年"
+      ]
+    },
+    "embedding_text": "洛带古镇 Luodai 客家 Hakka 湖广填四川 移民 龙泉驿 土楼 博客楼 清初 人口迁移 方言"
+  },
+  {
+    "id": "hist_018",
+    "title_zh": "华西协合大学——中国西部现代医学的摇篮",
+    "title_en": "West China Union University: The Cradle of Modern Medicine in Western China",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "华西协合大学（今四川大学华西医学中心前身）于1910年由美、英、加三国五个基督教会联合创办于成都，是中国西部第一所现代化大学。其建筑群融合了中国传统建筑元素与西方功能布局，是中西建筑文化交融的经典。华西的医学教育在中国现代医学史上具有标志性地位——抗战时期，华西与内迁的齐鲁大学、金陵大学等联合办学，成为大后方最重要的医学教育中心。",
+      "summary_en": "West China Union University (predecessor of today's West China Medical Center of Sichuan University) was founded in 1910 in Chengdu by five Christian missions from the US, UK, and Canada. It was the first modern university in western China. Its architectural complex, blending traditional Chinese elements with Western functional layouts, is a classic of Sino-Western architectural fusion. West China's medical education holds an iconic position in modern Chinese medical history. During the War of Resistance, it became the most important medical education center in Free China.",
+      "key_facts": [
+        {
+          "zh": "1910年创办于成都，中国西部第一所现代化大学",
+          "en": "Founded 1910 in Chengdu, first modern university in western China"
+        },
+        {
+          "zh": "华西建筑群入选全国重点文物保护单位",
+          "en": "West China architectural complex listed as a Major National Protected Cultural Site"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "协合",
+          "en": "Union / Xiehe",
+          "context": "多个教会联合创办之意"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "华西只是教会学校",
+          "fact": "华西是综合性大学，其医学教育在中国现代医学史上具有开创性地位"
+        }
+      ],
+      "narrative_angles": [
+        "一座大学的建筑如何讲述中西文化对话",
+        "抗战时期华西坝：中国教育的诺亚方舟"
+      ]
+    },
+    "embedding_text": "华西协合大学 West China Union University 1910年 成都 医学教育 建筑 中西融合 抗战 四川大学"
+  },
+  {
+    "id": "hist_019",
+    "title_zh": "川盐济楚——古代四川的盐业帝国",
+    "title_en": "Sichuan Salt for Chu: The Ancient Sichuan Salt Industry Empire",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "四川自古是中国最重要的井盐产区，自贡因盐而兴，被称为千年盐都。清代中叶'川盐济楚'——太平天国阻断淮盐西运后，川盐大规模进入两湖市场，自贡盐业进入黄金时代。燊海井是世界上第一口超过千米的深井（1001.42米，1835年凿成），是当时全球最深的人工钻井。自贡盐业繁荣催生了独特的盐帮菜、盐商会馆和盐工文化。",
+      "summary_en": "Sichuan has been China's most important well salt production region since ancient times. Zigong, known as the Thousand-Year Salt Capital, prospered because of salt. In the mid-Qing Dynasty, when the Taiping Rebellion cut off sea salt supply to central China, Sichuan salt poured into the Hubei-Hunan market in the Salt-for-Chu trade, launching Zigong's golden age. Shenhai Well, completed in 1835 at 1,001.42 meters, was the world's first well exceeding 1 km in depth. The salt prosperity gave birth to unique salt merchant cuisine, guild halls, and salt worker culture.",
+      "key_facts": [
+        {
+          "zh": "自贡被称为千年盐都",
+          "en": "Zigong known as the Thousand-Year Salt Capital"
+        },
+        {
+          "zh": "燊海井深1001.42米，1835年凿成，世界第一口超千米深井",
+          "en": "Shenhai Well: 1,001.42 m, completed 1835, world's first well over 1 km"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "井盐",
+          "en": "Well Salt",
+          "context": "通过钻井开采地下卤水熬制而成的食盐"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "自贡只有恐龙和灯会",
+          "fact": "自贡因盐而兴，燊海井是人类钻井技术的里程碑"
+        }
+      ],
+      "narrative_angles": [
+        "千米之下：燊海井与人类钻井技术的巅峰",
+        "盐塑造的城市：自贡的盐业帝国与文化遗产"
+      ]
+    },
+    "embedding_text": "川盐济楚 自贡 Zigong 盐都 井盐 well salt 燊海井 1001米 1835年 盐帮菜 盐商会馆 太平天国"
+  },
+  {
+    "id": "hist_020",
+    "title_zh": "南方丝绸之路的四川起点",
+    "title_en": "Sichuan as the Starting Point of the Southern Silk Road",
+    "module": "history",
+    "type": "entity",
+    "content": {
+      "summary_zh": "南方丝绸之路（也称蜀身毒道）是一条比北方丝绸之路更古老的国际商道，起点在成都，经云南进入缅甸、印度，最终到达中亚。早在西汉张骞出使西域之前，蜀地的丝绸、蜀布和邛竹杖就已经通过这条道路到达了大夏（今阿富汗）。三星堆出土的大量海贝和象牙，很可能是通过南方丝绸之路从印度洋地区贸易而来。南方丝绸之路与茶马古道、蜀道共同构成了四川的三大线性文化遗产网络。",
+      "summary_en": "The Southern Silk Road (Shu-Shendu Road) is an international trade route older than the Northern Silk Road. Starting from Chengdu, passing through Yunnan into Myanmar and India, it ultimately reached Central Asia. Before Zhang Qian's mission to the Western Regions in the Western Han Dynasty, Shu silk, cloth, and Qiong bamboo staffs had already reached Bactria (modern Afghanistan) via this route. The large quantities of seashells and ivory unearthed at Sanxingdui were likely traded from the Indian Ocean region through the Southern Silk Road. Together with the Tea Horse Road and the Shu Roads, it forms Sichuan's triad of linear cultural heritage networks.",
+      "key_facts": [
+        {
+          "zh": "起点在成都，比北方丝绸之路更古老",
+          "en": "Starting from Chengdu, older than the Northern Silk Road"
+        },
+        {
+          "zh": "三星堆海贝和象牙可能来自南方丝路贸易",
+          "en": "Sanxingdui seashells and ivory likely traded via the Southern Silk Road"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "蜀身毒道",
+          "en": "Shu-Shendu Road",
+          "context": "身毒是古代中国对印度的称谓"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "丝绸之路只有北方一条",
+          "fact": "南方丝绸之路和海上丝绸之路同样重要，南方丝路历史更为悠久"
+        }
+      ],
+      "narrative_angles": [
+        "比丝绸之路更古老：南方丝路的千年传奇",
+        "从三星堆海贝看古蜀的全球化"
+      ]
+    },
+    "embedding_text": "南方丝绸之路 Southern Silk Road 蜀身毒道 成都起点 比北方丝路更古老 缅甸 印度 三星堆海贝 象牙 线性文化遗产"
+  }
+]

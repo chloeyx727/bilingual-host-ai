@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "ich_001",
+    "title_zh": "川剧变脸",
+    "title_en": "Sichuan Opera Face-Changing (Bian Lian)",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "川剧变脸是川剧表演中最具标志性和国际辨识度的特技，演员在瞬间（最快0.2秒）变换面部脸谱，以表现角色情绪的急剧转变。变脸源自川剧的'抹脸''吹脸''扯脸'三种技法，其中'扯脸'最为精妙——通过丝绸脸谱和细线的精密配合实现数张脸谱的瞬时切换。变脸最初服务于剧情和人物情感表达（如《白蛇传》中小青的'怒而变脸'），绝非独立于剧情之外的杂耍。2006年川剧被列入第一批国家级非物质文化遗产名录。",
+      "summary_en": "Sichuan Opera Face-Changing (Bian Lian) is the most iconic and internationally recognizable stunt technique of Sichuan Opera. Performers instantaneously swap facial masks — as fast as 0.2 seconds per change — to express drastic emotional shifts in a character. The technique evolved from three methods — 'smearing,' 'blowing,' and 'pulling' — of which 'pulling' (silk masks connected by fine threads) is the most sophisticated, enabling multiple instantaneous mask swaps. Originally, face-changing served the narrative and emotional expression of the drama (e.g., Xiao Qing's 'rage face-change' in 'Legend of the White Snake'), never as acrobatics detached from the plot. Sichuan Opera was inscribed on China's first batch of National Intangible Cultural Heritage in 2006.",
+      "key_facts": [
+        {
+          "zh": "2006年川剧列入第一批国家级非物质文化遗产",
+          "en": "Sichuan Opera inscribed in the first batch of National ICH in 2006"
+        },
+        {
+          "zh": "变脸有三大技法：抹脸（油彩涂面）、吹脸（粉末吹面）、扯脸（丝线拉面具）",
+          "en": "Three techniques: Smearing (paint applied to face), Blowing (powder blown onto face), Pulling (silk masks pulled by threads)"
+        },
+        {
+          "zh": "变脸大师彭登怀曾创下25张脸谱/秒变的世界纪录",
+          "en": "Master Peng Denghuai set a world record of 25 face changes per second"
+        },
+        {
+          "zh": "变脸技法被视为行业机密，传统上'传男不传女、传内不传外'",
+          "en": "Face-changing techniques are treated as trade secrets; traditionally 'passed only to men, not women; only within the troupe, not to outsiders'"
+        },
+        {
+          "zh": "变脸在国际传播中最具辨识度的中国'文化符号'之一，出现在2008北京奥运开幕式等全球性舞台",
+          "en": "One of the most internationally recognizable Chinese 'cultural symbols'; performed at global events including the 2008 Beijing Olympics Opening Ceremony"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "脸谱",
+          "en": "Facial Makeup / Opera Mask / Lianpu",
+          "context": "川剧等中国戏曲中绘制在演员面部的彩色图案，不同颜色和图案代表不同角色性格——红色忠勇、白色奸诈、黑色刚正"
+        },
+        {
+          "zh": "扯脸",
+          "en": "Mask-Pulling / Che Lian",
+          "context": "变脸的核心技法，演员将多层丝绸脸谱面具贴于面部，通过衣服内隐藏的丝线快速扯下面具"
+        },
+        {
+          "zh": "白蛇传",
+          "en": "Legend of the White Snake",
+          "context": "中国四大民间传说之一，川剧版中小青'怒而变脸'是变脸技法最经典的戏剧性呈现"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "变脸就是魔术",
+          "fact": "变脸是川剧表演体系的有机组成部分，最初服务于角色的情感表达和剧情推进——小青因愤怒而瞬间变脸，是戏剧语言而非独立魔术。将其剥离剧情单独表演，是近几十年的商业化演变"
+        },
+        {
+          "myth": "变脸的秘密已经被公开了",
+          "fact": "虽然原理为人所知，但顶级变脸大师的具体手法（丝线走线方案、面具材质和叠放工艺）仍是严格保密的核心技艺"
+        }
+      ],
+      "narrative_angles": [
+        "0.2秒的艺术：变脸技法的物理极限与美学表达",
+        "守秘与传承：变脸'传内不传外'传统在现代的困境",
+        "从川剧舞台到奥运开幕式：变脸的国际化之路",
+        "变脸不是魔术：戏剧技巧的文化正名"
+      ]
+    },
+    "embedding_text": "川剧变脸 Sichuan Opera Face-Changing Bian Lian 非物质文化遗产 ICH 2006年 抹脸 吹脸 扯脸 彭登怀 25张脸谱 脸谱 facial makeup 白蛇传 传男不传女 北京奥运 川剧 文化符号"
+  },
+  {
+    "id": "ich_002",
+    "title_zh": "蜀绣",
+    "title_en": "Shu Embroidery",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "蜀绣（又称川绣）是中国四大名绣之一（与苏绣、湘绣、粤绣并列），以成都为中心产区，历史可追溯至西汉。蜀绣以软缎和彩丝为主要材料，拥有122种以上针法，尤以'晕针'技法著称——通过针脚长短和色彩渐变表现出微妙的色调过渡，使花鸟鱼虫栩栩如生。蜀绣在清代成为皇家贡品，1903年在巴拿马国际博览会上获得金奖。2006年被列入第一批国家级非物质文化遗产。当代蜀绣大师郝淑萍等人将传统针法与现代审美结合，使蜀绣从实用工艺走向纯艺术创作。",
+      "summary_en": "Shu Embroidery (also Sichuan Embroidery), centered on Chengdu, is one of China's Four Great Embroideries (alongside Su, Xiang, and Yue embroidery), with origins traceable to the Western Han Dynasty. Using soft satin and colored silk as primary materials with over 122 stitch types, it is especially famed for the 'halo stitch' (yun zhen) technique — graduated tonal transitions achieved through stitch length and color blending that render flora, fauna, birds, and fish with breathtaking vividness. Shu embroidery became imperial tribute in the Qing Dynasty and won a gold medal at the 1903 Panama International Exposition. It was inscribed on the first batch of National Intangible Cultural Heritage in 2006. Contemporary masters like Hao Shuping fuse traditional stitching with modern aesthetics, elevating Shu embroidery from applied craft to fine art.",
+      "key_facts": [
+        {
+          "zh": "2006年列入第一批国家级非物质文化遗产",
+          "en": "Inscribed in the first batch of National ICH in 2006"
+        },
+        {
+          "zh": "历史可追溯至西汉（公元前202年-公元8年），成都出土过汉代刺绣文物",
+          "en": "Origins traceable to the Western Han Dynasty (202 BCE–8 CE); Han Dynasty embroidery artifacts have been unearthed in Chengdu"
+        },
+        {
+          "zh": "拥有122种以上针法，以晕针、切针、拉针、油针等最具代表性",
+          "en": "Over 122 stitch types; halo stitch, cutting stitch, pulling stitch, and oil stitch are most representative"
+        },
+        {
+          "zh": "1903年巴拿马国际博览会金奖",
+          "en": "Gold medal at the 1903 Panama International Exposition"
+        },
+        {
+          "zh": "代表作包括双面异色绣《芙蓉鲤鱼》《熊猫》等，单面售价可达数万元至数十万元",
+          "en": "Masterpieces include double-sided different-color works such as 'Hibiscus and Carp' and 'Giant Panda'; individual pieces can sell for tens of thousands to hundreds of thousands of RMB"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "晕针",
+          "en": "Halo Stitch / Yun Zhen",
+          "context": "蜀绣核心针法，通过不同长度和方向的针脚交叠形成类似水墨渲染的渐变效果"
+        },
+        {
+          "zh": "双面绣",
+          "en": "Double-Sided Embroidery",
+          "context": "在同一块底料上绣出正反两面完全不同的图案，蜀绣的双面异色异形绣是最高难度的绣法之一"
+        },
+        {
+          "zh": "四大名绣",
+          "en": "Four Great Embroideries",
+          "context": "苏绣（江苏）、湘绣（湖南）、粤绣（广东）、蜀绣（四川）——各具鲜明的地域风格和技法特色"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "蜀绣和苏绣没什么差别",
+          "fact": "蜀绣以软缎为底、用天然蚕丝线、针脚整齐紧密、色彩鲜艳饱满，而苏绣以绢为底、丝线劈丝极细、风格雅致含蓄——两者在材质、针法、审美倾向上差异显著"
+        },
+        {
+          "myth": "蜀绣只是传统手工艺，没有当代价值",
+          "fact": "当代蜀绣已跨界时尚设计（国际品牌合作）、公共艺术（大型绣品装置）、数字文创（NFT）等，是传统文化活态转化的典型案例"
+        }
+      ],
+      "narrative_angles": [
+        "一根针的千年史诗：蜀绣从汉代到今天的传承轨迹",
+        "晕针之道：一种针法如何表现光影与生命",
+        "四大名绣的对话：蜀绣的独特美学在哪里",
+        "从贡品到国礼：蜀绣在国际文化交流中的角色演变"
+      ]
+    },
+    "embedding_text": "蜀绣 Shu Embroidery 四大名绣 成都 西汉 122种针法 晕针 halo stitch 软缎 巴拿马国际博览会 1903年 双面绣 非物质文化遗产 2006年 郝淑萍 苏绣 湘绣 粤绣 传统工艺"
+  },
+  {
+    "id": "ich_003",
+    "title_zh": "川菜文化",
+    "title_en": "Sichuan Cuisine Culture",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "川菜是中国四大菜系之一，以'一菜一格、百菜百味'著称，以麻辣为标志性味型但远不止于此——川菜公认有24种基础味型（如鱼香、怪味、荔枝味、椒麻、红油、家常等），是全世界味型谱系最丰富的菜系之一。川菜核心调味料豆瓣酱（郫县豆瓣）被誉为'川菜之魂'，其传统制作技艺是国家非物质文化遗产。川菜源于巴蜀民间的'尚滋味、好辛香'饮食传统，在清代'湖广填四川'移民潮后吸纳全国风味而臻于大乘。2011年，成都被联合国教科文组织授予'美食之都'称号。",
+      "summary_en": "Sichuan Cuisine is one of China's Four Great Culinary Traditions, famed for 'one dish, one style; a hundred dishes, a hundred flavors.' While its signature flavor profile is 'málà' (numbing-spicy), it is far more than that — Sichuan cuisine is recognized to have 24 basic flavor profiles (including fish-fragrant, strange-flavor, lychee, pepper-numbing, red oil, homestyle, etc.), arguably the richest flavor-spectrum repertoire of any cuisine in the world. Its core seasoning, Pixian Doubanjiang (fermented broad bean paste), is hailed as the 'Soul of Sichuan Cuisine,' and its traditional production technique is a National Intangible Cultural Heritage. Sichuan cuisine originated from the ancient Ba-Shu people's 'love of bold flavors and aromatic spices,' reaching its maturity after absorbing nationwide culinary influences brought by the 'Huguang Fills Sichuan' migration wave in the Qing Dynasty. In 2011, Chengdu was designated a UNESCO City of Gastronomy.",
+      "key_facts": [
+        {
+          "zh": "2011年成都被联合国教科文组织授予'美食之都'称号（亚洲首个）",
+          "en": "Chengdu designated a UNESCO City of Gastronomy in 2011 (first in Asia)"
+        },
+        {
+          "zh": "川菜有24种基础味型，麻辣只是其中之一",
+          "en": "24 basic flavor profiles; 'málà' (numbing-spicy) is only one of them"
+        },
+        {
+          "zh": "郫县豆瓣制作技艺为国家级非遗，有300年以上历史",
+          "en": "Pixian Doubanjiang production technique is a National ICH with over 300 years of history"
+        },
+        {
+          "zh": "清代'湖广填四川'（17-18世纪）使川菜吸纳了来自全国十余省的烹饪技法",
+          "en": "The 'Huguang Fills Sichuan' migration (17th–18th centuries) absorbed culinary techniques from over 10 provinces"
+        },
+        {
+          "zh": "麻婆豆腐、宫保鸡丁、回锅肉等是全球知名度最高的中国菜之一",
+          "en": "Mapo Tofu, Kung Pao Chicken, and Twice-Cooked Pork are among the most globally recognized Chinese dishes"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "麻辣",
+          "en": "Málà / Numbing-Spicy",
+          "context": "花椒（麻）与辣椒（辣）的组合，是川菜最具辨识度的味型标签——'麻'是花椒中的羟基-α-山椒素引起的50Hz振动触觉"
+        },
+        {
+          "zh": "郫县豆瓣",
+          "en": "Pixian Doubanjiang / Fermented Broad Bean Paste",
+          "context": "以蚕豆、辣椒、盐为原料经长期翻晒发酵制成的调味酱，是川菜'红味'菜肴的底味核心"
+        },
+        {
+          "zh": "一菜一格，百菜百味",
+          "en": "One Dish, One Style; A Hundred Dishes, A Hundred Flavors",
+          "context": "概括川菜味型丰富性的经典表述，强调川菜不是单一的'辣'"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "川菜就是辣",
+          "fact": "辣（辣椒）在川菜中仅有约200年历史——辣椒在明末清初才传入中国。川菜真正的味型谱系极为丰富，开水白菜（极清淡的国宴名菜）和甜烧白（糯米甜肉）等都是经典川菜"
+        },
+        {
+          "myth": "宫保鸡丁是'宫保'做的",
+          "fact": "'宫保'是清代四川总督丁宝桢的荣誉官衔（太子少保，尊称'宫保'），丁宝桢喜食此菜，后人以'宫保'命名——与烹饪方法无关"
+        }
+      ],
+      "narrative_angles": [
+        "麻辣之前：明清以前的巴蜀饮食是什么味道",
+        "舌尖上的移民史：湖广填四川如何造就现代川菜",
+        "郫县豆瓣：一罐酱里的微生物魔法与300年传承",
+        "川菜的全球之旅：从唐人街到米其林的味觉征服"
+      ]
+    },
+    "embedding_text": "川菜 Sichuan Cuisine 四大菜系 麻辣 mala 24种味型 郫县豆瓣 Pixian Doubanjiang 美食之都 UNESCO 2011年 成都 湖广填四川 麻婆豆腐 宫保鸡丁 回锅肉 开水白菜 花椒 辣椒 国家级非遗"
+  },
+  {
+    "id": "ich_004",
+    "title_zh": "自贡灯会",
+    "title_en": "Zigong Lantern Festival",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "自贡灯会是中国规模最大、历史最悠久的民间灯会之一，起源于唐宋时期的元宵赏灯习俗，至今已有800多年历史。自贡灯会以'形、色、声、光、动'五大特色著称——采用丝扎、裱糊、彩绘等传统工艺制作巨型灯组，融入机械传动和现代光电技术，创造出'人在灯中走、灯在人中游'的沉浸式体验。自贡灯会已输出至全球80多个国家和地区，是中国文化'走出去'的最成功案例之一——每年有超过200个自贡灯会项目在海外展出。",
+      "summary_en": "The Zigong Lantern Festival is one of China's largest and oldest folk lantern festivals, originating from Tang-Song Dynasty Lantern Festival customs with over 800 years of history. It is celebrated for five characteristics — 'form, color, sound, light, and motion' — using traditional techniques such as silk-framing, paper-mounting, and hand-painting to create colossal lantern installations, enhanced by mechanical animation and modern electro-optic technology, producing an immersive experience 'where visitors walk among the lights and the lights move among the visitors.' Zigong Lantern Festival has been exported to over 80 countries and regions — one of the most successful cases of Chinese culture 'going global' — with more than 200 overseas Zigong lantern projects exhibited annually.",
+      "key_facts": [
+        {
+          "zh": "源于唐宋，有800多年历史",
+          "en": "Originated in Tang-Song Dynasties, with over 800 years of history"
+        },
+        {
+          "zh": "自贡灯会制作技艺为国家级非物质文化遗产（2008年第二批）",
+          "en": "Zigong Lantern production techniques designated as National ICH in 2008 (second batch)"
+        },
+        {
+          "zh": "已出口至全球80多个国家和地区，每年在海外举办超过200场展览",
+          "en": "Exported to 80+ countries and regions; over 200 overseas exhibitions annually"
+        },
+        {
+          "zh": "自贡彩灯产业年产值超50亿元，从业人员超10万人",
+          "en": "Zigong lantern industry generates over 5 billion RMB annually, employing over 100,000 people"
+        },
+        {
+          "zh": "代表作：自贡国际恐龙灯会（每年春节举行），最大灯组高度可达30米",
+          "en": "Signature event: Zigong International Dinosaur Lantern Festival (held each Spring Festival); largest installations reach 30 m in height"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "丝扎工艺",
+          "en": "Silk-Framing Craft / Si Zha",
+          "context": "自贡灯会核心工艺，以铁丝（或竹篾）为骨架、丝绸为蒙面的立体造型技术"
+        },
+        {
+          "zh": "元宵节",
+          "en": "Lantern Festival / Yuanxiao Jie",
+          "context": "农历正月十五，中国春节的最后一天，传统上以赏灯、猜灯谜、吃元宵为庆祝方式"
+        },
+        {
+          "zh": "彩灯文化出口",
+          "en": "Lantern Culture Export",
+          "context": "自贡灯会已成为中国文化出口的重要产品形态——不仅输出灯组，更输出设计、制作、运营的完整产业链"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "灯会就是元宵节挂几个灯笼",
+          "fact": "现代自贡灯会是融合传统工艺、机械工程、光影科技、互动体验的大型主题展览，单场展览可吸引超百万游客"
+        },
+        {
+          "myth": "自贡灯会在海外只是华人社区的节庆活动",
+          "fact": "自贡灯会在许多海外场馆作为主流文化项目运作——如汉堡G20峰会期间的'感知中国'灯展，观众主要来自当地主流社会"
+        }
+      ],
+      "narrative_angles": [
+        "一盏灯的全球之旅：自贡灯会如何征服80个国家",
+        "从元宵到文化产业：灯会的现代化转型密码",
+        "丝与铁的艺术：灯会工艺的工匠精神",
+        "灯会'出海'：中国文化出口的轻资产模式"
+      ]
+    },
+    "embedding_text": "自贡灯会 Zigong Lantern Festival 800年 唐宋 元宵节 丝扎工艺 国家级非物质文化遗产 2008年 形色声光动 80个国家 200场海外展出 50亿元产业 恐龙灯会 彩灯文化出口"
+  },
+  {
+    "id": "ich_005",
+    "title_zh": "羌年（羌族新年）",
+    "title_en": "Qiang New Year Festival",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "羌年是羌族最隆重的传统节日，于每年农历十月初一举行，庆祝丰收、祭祀天神和祖先。2009年被列入联合国教科文组织'急需保护的非物质文化遗产名录'。羌族是中国最古老的民族之一（甲骨文中已有'羌'字），主要聚居在四川省阿坝藏族羌族自治州和绵阳市北川羌族自治县。羌年仪轨包括释比（祭司）主持的祭祀、咂酒开坛、跳萨朗（锅庄舞）、唱羌族多声部民歌等。2008年汶川地震后羌族文化遭受巨大损失，羌年的保护和复兴成为民族文化抢救的标志性工程。",
+      "summary_en": "The Qiang New Year is the most important traditional festival of the Qiang ethnic group, held on the first day of the tenth lunar month, celebrating the harvest and offering sacrifices to heavenly deities and ancestors. It was inscribed on UNESCO's List of Intangible Cultural Heritage in Need of Urgent Safeguarding in 2009. The Qiang are one of China's most ancient ethnic groups — the character 'Qiang' (羌) appears in oracle bone inscriptions — concentrated in Aba Tibetan and Qiang Autonomous Prefecture and Beichuan Qiang Autonomous County, Sichuan. The New Year rituals include ceremonies led by the shibi (priest), the opening of zajiu (millet wine) jars, the Salang circle dance, and Qiang polyphonic folk singing. After the devastating 2008 Wenchuan Earthquake, Qiang culture suffered enormous losses, and the preservation and revival of the Qiang New Year became a landmark project in ethnic cultural rescue.",
+      "key_facts": [
+        {
+          "zh": "2009年列入UNESCO急需保护的非遗名录",
+          "en": "Inscribed on UNESCO's List of ICH in Need of Urgent Safeguarding in 2009"
+        },
+        {
+          "zh": "每年农历十月初一举行，是羌族最隆重的节庆",
+          "en": "Held on the first day of the tenth lunar month; the Qiang's most important festival"
+        },
+        {
+          "zh": "羌族人口约30万，主要分布在四川阿坝州和北川县",
+          "en": "Qiang population ~300,000, concentrated in Aba Prefecture and Beichuan County, Sichuan"
+        },
+        {
+          "zh": "'羌'字在甲骨文中已出现，是商代对西方游牧部族的称谓",
+          "en": "The character 'Qiang' already appears in Shang Dynasty oracle bone inscriptions as a term for western nomadic tribes"
+        },
+        {
+          "zh": "2008年汶川地震严重破坏了羌族聚居区，大量羌寨、碉楼被毁，释比文化传承人大量遇难",
+          "en": "The 2008 Wenchuan Earthquake severely devastated Qiang areas; many Qiang villages and watchtowers were destroyed, and many shibi culture bearers perished"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "释比",
+          "en": "Shibi / Qiang Priest",
+          "context": "羌族传统宗教的神职人员，掌握祭祀仪轨、口传史诗和传统医疗知识，是羌族文化的核心传承者"
+        },
+        {
+          "zh": "萨朗",
+          "en": "Salang / Qiang Circle Dance",
+          "context": "羌族的传统集体舞蹈，男女老少围成圆圈，手拉手边唱边跳，是羌族社交和节庆的核心活动"
+        },
+        {
+          "zh": "羌笛",
+          "en": "Qiang Flute",
+          "context": "羌族传统双管吹奏乐器，'羌笛何须怨杨柳'（王之涣《凉州词》）使之成为中国文学中最著名的少数民族乐器意象"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "羌族文化已经消亡了",
+          "fact": "虽然汶川地震造成巨大损失，但震后十多年的文化抢救已见成效——羌年在2019年恢复大规模庆祝，羌语保护、释比传承人培养等取得实质进展"
+        },
+        {
+          "myth": "羌年只是羌族自己的节日",
+          "fact": "羌年所在的北川、汶川、理县、茂县等地每年吸引大量游客体验羌年，已成为四川民族文化旅游的重要品牌"
+        }
+      ],
+      "narrative_angles": [
+        "一个古老民族的'新年'：羌年仪式的文化解码",
+        "震后重生：羌族文化从抢救到复兴的十五年",
+        "释比：一个无文字民族的活态图书馆",
+        "UNESCO急需保护名录：羌年的国际关注与本土实践"
+      ]
+    },
+    "embedding_text": "羌年 Qiang New Year 羌族 Qiang 农历十月初一 UNESCO 急需保护非遗 2009年 释比 Shibi 萨朗 Salang 羌笛 汶川地震 2008年 碉楼 阿坝 北川 多声部民歌 民族节日 文化抢救"
+  },
+  {
+    "id": "ich_006",
+    "title_zh": "绵竹年画",
+    "title_en": "Mianzhu New Year Woodblock Prints",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "绵竹年画是中国四大年画之一（与天津杨柳青、苏州桃花坞、山东潍坊并列），产于四川德阳绵竹市，起源于宋代、兴盛于明清。绵竹年画以手工彩绘见长，与北方年画的木版套印不同——它先用木版印出墨线轮廓，再由画师手工填色，'一黑二白三金黄，五颜六色穿衣裳'的工序口诀传承至今。绵竹年画色彩浓烈明快、造型夸张饱满，尤以'填水脚'（写意式的大笔触上色）技法表现出巴蜀艺术的率性气质。2006年列入第一批国家级非物质文化遗产。",
+      "summary_en": "Mianzhu New Year Prints are one of China's Four Great New Year Print traditions (alongside Yangliuqing in Tianjin, Taohuawu in Suzhou, and Weifang in Shandong), produced in Mianzhu, Deyang, Sichuan. Originating in the Song Dynasty and flourishing in the Ming-Qing period, Mianzhu prints are distinguished by their hand-painted coloration — unlike the block-printing technique of northern New Year prints, Mianzhu prints are first block-printed with ink outlines, then hand-colored by artisans following the formula: 'first black, then white, third golden yellow; then all colors dress the body.' The prints feature intense, luminous colors and exaggerated, full-bodied forms, with the 'tianshuijiao' (freehand broad-stroke coloring) technique particularly expressing the uninhibited spirit of Ba-Shu art. Inscribed in the first batch of National Intangible Cultural Heritage in 2006.",
+      "key_facts": [
+        {
+          "zh": "2006年列入第一批国家级非物质文化遗产",
+          "en": "Inscribed in the first batch of National ICH in 2006"
+        },
+        {
+          "zh": "中国四大年画之一，起源于宋代，兴盛于明清",
+          "en": "One of China's Four Great New Year Print traditions; originated in Song Dynasty, flourished in Ming-Qing"
+        },
+        {
+          "zh": "核心工序：起稿→刻版→印墨线→手工彩绘→开相（画五官）",
+          "en": "Core process: sketching → block carving → ink-line printing → hand coloring → face detailing"
+        },
+        {
+          "zh": "'填水脚'技法以大笔触快速上色，表现出大写意式的粗犷之美",
+          "en": "The 'tianshuijiao' technique uses broad, rapid brush strokes for coloring, achieving a spontaneous 'great freehand' aesthetic"
+        },
+        {
+          "zh": "绵竹年画最经典的题材包括'老鼠嫁女''立锤门神''和合二仙'等",
+          "en": "Classic subjects include 'The Mouse's Wedding,' 'Door Gods with Upright Hammers,' and 'The Two Immortals of Harmony and Union'"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "填水脚",
+          "en": "Tianshuijiao / Freehand Coloring",
+          "context": "绵竹年画特有的写意式上色技法，用大笔饱蘸颜料快速挥洒，不追求工整而追求气势"
+        },
+        {
+          "zh": "门神",
+          "en": "Door Gods / Menshen",
+          "context": "中国年画中最经典的主题，贴于大门左右以驱邪避凶，绵竹的立锤门神造型威猛、色彩浓烈"
+        },
+        {
+          "zh": "粉笺纸",
+          "en": "Fenjian Paper / Chalk-Coated Paper",
+          "context": "绵竹年画专用的手工纸，表面涂有白垩粉，使色彩显得更加饱和鲜艳"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "年画就是'土气的'民俗装饰",
+          "fact": "绵竹年画的艺术价值已被国际主流艺术界认可——其色彩体系（粉红与佛青的强烈对比）和造型语言（夸张变形的人物比例）呈现出与西方表现主义异曲同工的现代审美特质"
+        },
+        {
+          "myth": "年画只是过年才用的",
+          "fact": "传统年画确实主要在春节张贴，但当代绵竹年画已从'年份消费品'转型为'全年艺术品'——包括装饰画、收藏品和文创衍生品"
+        }
+      ],
+      "narrative_angles": [
+        "一刀一刻一年景：绵竹年画的制作工序之美",
+        "填水脚：一笔写尽巴蜀豪气的色彩哲学",
+        "四大年画的比较：南腔北调中的地域性格",
+        "从门神到文创：绵竹年画的当代转型"
+      ]
+    },
+    "embedding_text": "绵竹年画 Mianzhu New Year Prints 四大年画 德阳 宋代 明清 国家级非物质文化遗产 2006年 填水脚 手工彩绘 门神 木版年画 老鼠嫁女 杨柳青 桃花坞 潍坊 粉笺纸"
+  },
+  {
+    "id": "ich_007",
+    "title_zh": "竹编（道明竹编）",
+    "title_en": "Bamboo Weaving (Daoming Bamboo Weaving)",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "道明竹编产于成都崇州市道明镇，已有2000多年历史，是国家级非物质文化遗产（2014年列入）。道明竹编以本地慈竹为原料，通过刮青、剖片、启篾、染色、编织等20多道工序，将竹篾编织成从生活用具到艺术装置的各类作品。2018年，建筑师刘家琨设计的'竹里'装置将道明竹编从手工艺推向当代建筑语言，在威尼斯建筑双年展上引起国际关注。竹编工艺体现了巴蜀文化'就地取材、因材施艺'的生态智慧和手工美学。",
+      "summary_en": "Daoming Bamboo Weaving, produced in Daoming Town, Chongzhou, Chengdu, has a history of over 2,000 years and is a National Intangible Cultural Heritage (inscribed in 2014). Using local cizhu bamboo as raw material, craftspeople execute 20+ processes — scraping the green skin, splitting, stripping into strips, dyeing, and weaving — to create everything from daily utensils to large-scale art installations. In 2018, architect Liu Jiakun's 'Bamboo Inside' (Zhu Li) installation elevated Daoming bamboo weaving from craft to contemporary architectural language, attracting international attention at the Venice Architecture Biennale. This craft embodies the Ba-Shu ecological wisdom of 'using local materials and designing with the material's nature' and its handcrafted aesthetics.",
+      "key_facts": [
+        {
+          "zh": "2014年列入国家级非物质文化遗产（第四批）",
+          "en": "Inscribed as National ICH in 2014 (fourth batch)"
+        },
+        {
+          "zh": "历史可追溯至汉代，道明镇是'中国民间艺术（竹编）之乡'",
+          "en": "Origins traceable to the Han Dynasty; Daoming Town is the 'Home of Chinese Folk Art (Bamboo Weaving)'"
+        },
+        {
+          "zh": "使用本地慈竹为原料，一年生竹材为佳——'一年青，二年黄，三年四年烂光光'",
+          "en": "Uses local cizhu bamboo; one-year-old culms are optimal — 'One year green, two years yellow, three to four years rot away'"
+        },
+        {
+          "zh": "2018年威尼斯建筑双年展'竹里'装置，将道明竹编推入国际当代设计视野",
+          "en": "The 'Bamboo Inside' installation at the 2018 Venice Architecture Biennale brought Daoming bamboo weaving into the international contemporary design spotlight"
+        },
+        {
+          "zh": "道明竹编从几十元的生活用品到数十万元的装置艺术，产业链持续升级",
+          "en": "Daoming bamboo products range from everyday items at a few dozen RMB to art installations at hundreds of thousands; the industrial chain is continuously upgrading"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "启篾",
+          "en": "Stripping / Qi Mie",
+          "context": "竹编最关键的工序——将竹片层层劈分成极薄极细的竹篾，篾片厚度可薄至0.2毫米"
+        },
+        {
+          "zh": "慈竹",
+          "en": "Cizhu Bamboo / Sinocalamus affinis",
+          "context": "四川本土竹种，纤维长、韧性好、节间长，是最适合编织的竹材之一"
+        },
+        {
+          "zh": "竹里",
+          "en": "Bamboo Inside / Zhu Li",
+          "context": "建筑师刘家琨在道明镇设计的竹编装置建筑，用当代建筑语言表达传统竹编工艺"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "竹编就是编篮子和竹筐",
+          "fact": "当代道明竹编已进入建筑表皮、艺术装置、奢侈品合作（如爱马仕橱窗设计）、数字参数化设计等高端领域"
+        },
+        {
+          "myth": "竹编是落后的传统手艺",
+          "fact": "竹子是可再生速度最快的天然材料之一（3-5年成材），在全球可持续发展语境下，竹编代表了低碳环保的'未来材料'方向"
+        }
+      ],
+      "narrative_angles": [
+        "从篮子到建筑：道明竹编的当代设计革命",
+        "篾刀下的哲学：竹编工艺中的中国手工智慧",
+        "竹里：一座建筑如何让千年手工艺重获国际关注",
+        "竹的可持续性：道明竹编与全球绿色设计趋势"
+      ]
+    },
+    "embedding_text": "道明竹编 Daoming Bamboo Weaving 崇州 成都 2000年历史 国家级非物质文化遗产 2014年 慈竹 启篾 竹里 Bamboo Inside 刘家琨 威尼斯建筑双年展 2018年 竹编 手工工艺 绿色设计 可持续"
+  },
+  {
+    "id": "ich_008",
+    "title_zh": "藏羌织绣",
+    "title_en": "Tibetan-Qiang Embroidery and Weaving",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "藏羌织绣是四川阿坝、甘孜等地区藏族和羌族妇女传承的传统纺织和刺绣工艺，融合了藏族的氆氇织造（羊毛织物）和羌族的挑花刺绣两大技艺体系。其图案体系极为丰富——从自然崇拜（羊角花、云朵纹）到佛教符号（八吉祥图），每一针一线都承载着族群记忆和信仰。藏羌织绣在2006年羌族刺绣、2008年藏族邦典·卡垫织造分别列入国家级非遗。联合国教科文组织也将'藏族编织、挑花刺绣工艺'列入人类非物质文化遗产代表作名录。",
+      "summary_en": "Tibetan-Qiang embroidery and weaving encompasses traditional textile and embroidery crafts passed down by Tibetan and Qiang women in Sichuan's Aba and Ganzi regions, integrating two major skill systems: Tibetan pulu (wool fabric) weaving and Qiang cross-stitch embroidery. The decorative pattern repertoire is extraordinarily rich — from nature worship motifs (rhododendron flowers, cloud patterns) to Buddhist symbols (the Eight Auspicious Symbols) — with every stitch and thread carrying ethnic memory and belief. Qiang embroidery was designated National ICH in 2006; Tibetan bangdian and kadian weaving in 2008. UNESCO has also inscribed 'Tibetan weaving and cross-stitch embroidery techniques' on the Representative List of the Intangible Cultural Heritage of Humanity.",
+      "key_facts": [
+        {
+          "zh": "羌族刺绣为2006年国家级非遗（第一批），藏族编织为2008年（第二批）",
+          "en": "Qiang embroidery designated National ICH in 2006 (first batch); Tibetan weaving in 2008 (second batch)"
+        },
+        {
+          "zh": "羌绣以'挑花'技法为主——反面挑花正面看，不需图稿凭记忆绣出复杂图案",
+          "en": "Qiang embroidery's main technique is 'cross-stitch' — embroidered from the reverse side, viewed from the front; complex patterns memorized without draft designs"
+        },
+        {
+          "zh": "藏族氆氇以手工纺羊毛经植物染色织成，一匹氆氇可耗时数月",
+          "en": "Tibetan pulu is hand-spun wool naturally dyed with plant pigments and woven; one bolt can take several months to produce"
+        },
+        {
+          "zh": "羌绣的典型图案包括'羊角花'（杜鹃花）、'云云鞋'纹样、太阳纹等",
+          "en": "Typical Qiang embroidery motifs include 'goat-horn flowers' (rhododendron), 'cloud shoes' patterns, and sun motifs"
+        },
+        {
+          "zh": "2008年汶川地震后，藏羌织绣的'生产性保护'成为非遗扶贫的成功模式",
+          "en": "After the 2008 Wenchuan Earthquake, the 'productive safeguarding' model of Tibetan-Qiang embroidery became a successful ICH poverty-alleviation model"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "挑花",
+          "en": "Cross-Stitch / Tiaohua",
+          "context": "羌绣核心技法，在布的背面以十字针法挑绣，不画稿、全凭心记手运——这种技艺曾是羌族女性必须掌握的'第二语言'"
+        },
+        {
+          "zh": "氆氇",
+          "en": "Pulu / Tibetan Woolen Fabric",
+          "context": "藏区传统手工织造的羊毛织物，是藏族服装（藏袍）、坐垫、帐篷的基础材料"
+        },
+        {
+          "zh": "生产性保护",
+          "en": "Productive Safeguarding",
+          "context": "中国非遗保护的重要模式——通过市场销售非遗产品，使传承人靠手艺获得体面收入，从而实现活态传承"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "藏羌织绣只是'民族特色工艺品'",
+          "fact": "藏羌织绣正与国际时尚品牌联名合作，其几何化图案语言被诸多设计师视为具有'超前现代感'——这些千年前的抽象纹样与当代极简主义美学意外地高度契合"
+        },
+        {
+          "myth": "这些图案只是装饰",
+          "fact": "藏羌织绣的图案是'无文字族群的视觉文本'——在没有文字的羌族文化中，刺绣图案承载着族源记忆、迁徙路线和宇宙观"
+        }
+      ],
+      "narrative_angles": [
+        "以针为笔：无文字民族的视觉叙事",
+        "从地震废墟到国际时装周：藏羌织绣的复兴之路",
+        "挑花的秘密：羌族妇女的第二语言",
+        "生产性保护：非遗扶贫的中国方案"
+      ]
+    },
+    "embedding_text": "藏羌织绣 Tibetan-Qiang Embroidery 羌绣 Qiang embroidery 挑花 cross-stitch 氆氇 pulu 藏族 羌族 国家级非遗 2006年 2008年 羊角花 云云鞋 八吉祥 汶川地震 生产性保护 非遗扶贫 阿坝 甘孜"
+  },
+  {
+    "id": "ich_009",
+    "title_zh": "彝族火把节",
+    "title_en": "Yi Torch Festival",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "彝族火把节是彝族最隆重的传统节日，于每年农历六月二十四日举行（为期三天），四川凉山彝族自治州是火把节最盛大的举办地。2006年被列入第一批国家级非物质文化遗产名录。火把节以夜间万人持火把巡游为核心——'东方狂欢节'——还包括彝族选美、斗牛、赛马、摔跤、朵洛荷（彝族传统歌舞）等活动。火把节源自彝族古老的太阳崇拜和火崇拜，有驱邪避灾、祈求丰收的宗教内涵。近年来凉山火把节每年吸引游客数百万人次，是少数民族文化资源向文化旅游产品转化的经典案例。",
+      "summary_en": "The Yi Torch Festival, the grandest traditional festival of the Yi ethnic group, is held on the 24th day of the sixth lunar month (lasting three days), with Liangshan Yi Autonomous Prefecture, Sichuan, hosting the most spectacular celebrations. It was inscribed on the first batch of National Intangible Cultural Heritage in 2006. The core event — a nocturnal procession of tens of thousands bearing torches — has earned it the nickname 'the Oriental Carnival.' The festival also features Yi beauty pageants, bullfighting, horse racing, wrestling, and the Duoluohe (traditional Yi song-and-dance). Rooted in the ancient Yi worship of the sun and fire, the festival carries profound religious meanings of exorcising evil, averting disaster, and praying for harvest. In recent years, the Liangshan Torch Festival has attracted millions of visitors annually — a classic case of transforming ethnic minority cultural resources into cultural tourism products.",
+      "key_facts": [
+        {
+          "zh": "2006年列入第一批国家级非物质文化遗产",
+          "en": "Inscribed on the first batch of National ICH in 2006"
+        },
+        {
+          "zh": "农历六月二十四举行，为期三天",
+          "en": "Held on the 24th day of the sixth lunar month; lasts three days"
+        },
+        {
+          "zh": "凉山彝族自治州是中国最大的彝族聚居区，彝族人口约260万",
+          "en": "Liangshan is China's largest Yi-populated region, with ~2.6 million Yi people"
+        },
+        {
+          "zh": "朵洛荷是彝族火把节特有的传统歌舞，由数十名彝族女子手撑黄油布伞缓步而歌",
+          "en": "The Duoluohe is a signature Yi Torch Festival song-and-dance: dozens of Yi women walk slowly holding yellow oil-paper umbrellas while singing"
+        },
+        {
+          "zh": "凉山火把节每年吸引超过200万人次游客，旅游综合收入数十亿元",
+          "en": "The Liangshan Torch Festival attracts over 2 million visitors annually, generating billions in tourism revenue"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "火崇拜",
+          "en": "Fire Worship",
+          "context": "彝族传统宗教的核心元素——火被视为神圣、洁净、驱邪的力量，火塘是彝族家庭的精神中心"
+        },
+        {
+          "zh": "朵洛荷",
+          "en": "Duoluohe",
+          "context": "彝族火把节中的传统歌舞形式，以黄油布伞、银饰盛装和悠长的古歌为特征"
+        },
+        {
+          "zh": "东方狂欢节",
+          "en": "Oriental Carnival",
+          "context": "外界对彝族火把节的形容，强调其万人持火巡游的壮观场面和狂欢氛围"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "火把节就是彝族的'春节'",
+          "fact": "彝族有自己的新年（彝历年，农历十月初一至初三），火把节是夏天举行的驱邪和丰收节日，功能上更接近端午而非春节"
+        },
+        {
+          "myth": "火把节只是热闹的旅游表演",
+          "fact": "火把节的核心仍是彝族社区的宗教和社交活动——毕摩（祭司）的祭火仪式、家族团聚和青年社交，旅游化是近年才出现的叠加层"
+        }
+      ],
+      "narrative_angles": [
+        "万把火炬照亮凉山：彝族火崇拜的宇宙观解读",
+        "朵洛荷：一把油布伞下的千年女性叙事",
+        "毕摩与火：彝族祭司的祭火仪式实录",
+        "从部落到景区：火把节的旅游化与文化真实性之辩"
+      ]
+    },
+    "embedding_text": "彝族火把节 Yi Torch Festival 凉山 农历六月二十四 2006年 国家级非遗 东方狂欢节 朵洛荷 斗牛 赛马 选美 火崇拜 毕摩 260万彝族 太阳崇拜 文化旅游"
+  },
+  {
+    "id": "ich_010",
+    "title_zh": "成都漆艺",
+    "title_en": "Chengdu Lacquer Art",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "成都漆艺是中国历史最悠久的漆器工艺体系之一，可追溯至商周时期（金沙遗址出土了距今3000多年的漆器残片）。汉代成都漆器已驰名全国，'蜀郡工官'是汉代最重要的官营漆器制造机构。成都漆艺以'雕花填彩'（在漆面上雕出纹样后填入金粉或色漆）和'金银平脱'（将金银箔片嵌贴于漆面后再罩漆打磨）为代表技法，以'三灰三磨'为质量保证工序。2006年成都漆艺被列入第一批国家级非物质文化遗产。",
+      "summary_en": "Chengdu Lacquer Art is one of China's oldest lacquer craft traditions, traceable to the Shang-Zhou period — lacquer fragments over 3,000 years old have been unearthed at the Jinsha Site. By the Han Dynasty, Chengdu lacquerware was already renowned nationwide; the 'Shu Commandery Imperial Workshop' was the most important official lacquer production institution of the Han Dynasty. Chengdu lacquer art is characterized by 'engraved pattern infill' (carving patterns into the lacquer surface and filling with gold powder or colored lacquer) and 'gold-silver inlay' (embedding gold and silver foil onto the lacquer surface, then coating with further lacquer and polishing), with 'three layers of putty, three rounds of polishing' as the quality-assurance process. Inscribed on the first batch of National Intangible Cultural Heritage in 2006.",
+      "key_facts": [
+        {
+          "zh": "2006年列入第一批国家级非物质文化遗产",
+          "en": "Inscribed on the first batch of National ICH in 2006"
+        },
+        {
+          "zh": "金沙遗址出土漆器残片距今3000多年，证明了古蜀漆艺的悠久历史",
+          "en": "Lacquer fragments unearthed at Jinsha Site date back 3,000+ years, proving the antiquity of ancient Shu lacquer craft"
+        },
+        {
+          "zh": "汉代'蜀郡工官'是当时最重要的官营漆器制造机构，产品远销全国各地及朝鲜半岛",
+          "en": "The Han Dynasty 'Shu Commandery Imperial Workshop' was the era's foremost official lacquer producer; products were exported nationwide and to the Korean Peninsula"
+        },
+        {
+          "zh": "核心技法：雕花填彩（雕漆）、金银平脱、雕银丝光、堆漆",
+          "en": "Core techniques: engraved pattern infill, gold-silver inlay, silver engraving with thread-drawing, and relief lacquer"
+        },
+        {
+          "zh": "一件精品成都漆器需经数十道工序、耗时数月甚至一年",
+          "en": "A fine Chengdu lacquer piece requires dozens of processes and takes months to even a year to complete"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "雕花填彩",
+          "en": "Engraved Pattern Infill / Diaohua Tiancai",
+          "context": "在已固化的漆面上雕刻纹样，然后填入金粉或不同颜色的漆料，形成微妙的色彩和质感对比"
+        },
+        {
+          "zh": "金银平脱",
+          "en": "Gold-Silver Inlay / Jin Yin Pingtuo",
+          "context": "将金银箔片按设计图案嵌贴于漆器表面，再罩漆打磨使金银纹样与漆面齐平——汉代成都漆艺的巅峰技法"
+        },
+        {
+          "zh": "大漆",
+          "en": "Raw Lacquer / Da Qi",
+          "context": "从漆树割取的天然树脂，是中国漆艺的基础材料，有'涂料之王'的美誉，具有防腐、耐热、光泽温润等特性"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "漆器就是涂了漆的木头",
+          "fact": "成都漆艺是一套极其复杂的手工体系——从制胎（木胎/竹胎/脱胎）、裱布、刮灰、髹漆到雕填推光，一件精品可能经历上百道工序"
+        },
+        {
+          "myth": "中国的漆器工艺只存在于日本（Japan = 漆器）",
+          "fact": "'Japan'在英文中成为漆器的代名词，这是历史传播的误会——中国漆艺历史远早于日本，汉代成都漆器是日本漆艺的重要源头之一"
+        }
+      ],
+      "narrative_angles": [
+        "大漆之道：一种天然树脂如何定义了东方的审美质感",
+        "三千年不断：从金沙漆片到当代成都漆艺",
+        "Japan 与中国：漆器命名的跨文化历史纠葛",
+        "慢工出细活：成都漆艺工序的时间哲学"
+      ]
+    },
+    "embedding_text": "成都漆艺 Chengdu Lacquer Art 国家级非物质文化遗产 2006年 金沙遗址 3000年 汉代 蜀郡工官 雕花填彩 金银平脱 大漆 raw lacquer 三灰三磨 雕银丝光 堆漆 Japan"
+  },
+  {
+    "id": "ich_011",
+    "title_zh": "川江号子——长江上的劳动史诗",
+    "title_en": "Chuanjiang Haozi: The Labor Epic of the Yangtze River",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "川江号子是长江上游（川江段）船工在拉纤、摇橹、推桡等劳动中传唱的民间歌谣，2006年列入第一批国家级非物质文化遗产。号子既是协调劳动节奏的工具，也是船工表达情感、讲述故事的艺术形式。川江号子曲牌丰富，有上水号子、下水号子、平水号子等几十种。随着三峡工程和机动船普及，川江号子失去了原生劳动场景，但通过非遗保护和舞台演绎获得了新的生命力。",
+      "summary_en": "Chuanjiang Haozi are folk work songs sung by boatmen on the upper Yangtze River during towing, rowing, and steering labor. Inscribed in the first batch of National ICH in 2006, these chants served both as labor-coordination tools and artistic expressions. With dozens of tune patterns for different work scenarios, Chuanjiang Haozi lost its original labor context after the Three Gorges Dam and motorization, but has gained new life through ICH protection and stage performances.",
+      "key_facts": [
+        {
+          "zh": "2006年列入第一批国家级非遗",
+          "en": "Inscribed in first batch of National ICH, 2006"
+        },
+        {
+          "zh": "有上水、下水、平水等几十种曲牌",
+          "en": "Dozens of tune patterns for different work scenarios"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "号子",
+          "en": "Haozi / Work Chant",
+          "context": "在集体劳动中为统一节奏和鼓舞士气而唱的民歌"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "川江号子已经失传了",
+          "fact": "川江号子作为非遗项目得到保护，在舞台演出和文化活动中仍有传承"
+        }
+      ],
+      "narrative_angles": [
+        "长江上的劳动交响曲：川江号子的音乐人类学",
+        "当江水不再需要号子：非遗活态保护的困境与出路"
+      ]
+    },
+    "embedding_text": "川江号子 Chuanjiang Haozi 船工 长江 非遗 2006年 劳动号子 三峡 拉纤 work song 民间音乐"
+  },
+  {
+    "id": "ich_012",
+    "title_zh": "泸州老窖酒传统酿制技艺",
+    "title_en": "Luzhou Laojiao Traditional Liquor-Making Techniques",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "泸州老窖酒传统酿制技艺拥有超过690年的历史，是中国浓香型白酒的典型代表，2006年列入首批国家级非遗。其核心是'续糟配料、混蒸混烧'工艺和'1573国宝窖池群'——连续使用超过450年的老窖池。白酒酿制中的'泥窖发酵'是中国独有的生物工程技术：窖泥中的微生物群落在数百年连续酿造中形成了独特的生态系统。",
+      "summary_en": "Luzhou Laojiao's traditional liquor-making techniques, with over 690 years of history, represent the quintessential strong-aroma baijiu. Inscribed in the first batch of National ICH in 2006, its core techniques include continuous fermented-grain blending and the 1573 National Treasure Pit Group —窖池 continuously used for over 450 years. The mud-pit fermentation used in baijiu making is a uniquely Chinese bioengineering technology: the microbial community in the pit mud has formed a distinctive ecosystem over centuries of continuous brewing.",
+      "key_facts": [
+        {
+          "zh": "超过690年历史，2006年列入首批国家级非遗",
+          "en": "Over 690 years of history; first batch National ICH, 2006"
+        },
+        {
+          "zh": "1573国宝窖池群连续使用超过450年",
+          "en": "1573 National Treasure Pit Group continuously used for over 450 years"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "浓香型白酒",
+          "en": "Strong-Aroma Baijiu",
+          "context": "中国白酒四大香型之一，以泸州老窖和五粮液为代表"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "白酒只是酒精饮料",
+          "fact": "白酒酿制是中国独有的生物工程技术，老窖池中的微生物群落是活态文化遗产"
+        }
+      ],
+      "narrative_angles": [
+        "450年的微生物帝国：老窖池的科学密码",
+        "从泸州到世界：中国白酒的国际化表达"
+      ]
+    },
+    "embedding_text": "泸州老窖 Luzhou Laojiao 白酒 baijiu 浓香型 1573 窖池 微生物 非遗 2006年 酿酒 690年"
+  },
+  {
+    "id": "ich_013",
+    "title_zh": "四川扬琴——坐地传情的曲艺瑰宝",
+    "title_en": "Sichuan Yangqin: A Gem of Chinese Narrative Singing",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "四川扬琴是国家级非物质文化遗产（2008年），又称四川琴书，以扬琴为主要伴奏乐器，集说、唱、奏于一体。表演时多人围坐，分角色演唱故事，有生、旦、净、末、丑五个行当。四川扬琴的音乐吸收了川剧高腔和四川清音的元素，形成了独特的唱腔体系。传统曲目包括《三国》《水浒》《红楼梦》等长篇故事。",
+      "summary_en": "Sichuan Yangqin, a National ICH (2008), also called Sichuan Qin Shu, features the yangqin (hammered dulcimer) as the main accompanying instrument, integrating narration, singing, and instrumental performance. Performers sit in a circle, each taking a role — the five role types of Chinese opera. Sichuan Yangqin music incorporates elements of Sichuan Opera high-pitched singing and Sichuan Qingyin, forming a unique vocal system. Traditional repertoire includes Romance of the Three Kingdoms, Water Margin, and Dream of the Red Chamber.",
+      "key_facts": [
+        {
+          "zh": "2008年列入国家级非遗",
+          "en": "National ICH inscribed 2008"
+        },
+        {
+          "zh": "分角色演唱，有五个行当",
+          "en": "Five role types in ensemble performance"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "扬琴",
+          "en": "Yangqin / Hammered Dulcimer",
+          "context": "击弦乐器，用琴竹敲击琴弦发声"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "扬琴是西方乐器",
+          "fact": "扬琴虽源自中东，但在中国已有400多年历史，四川扬琴已完全本土化"
+        }
+      ],
+      "narrative_angles": [
+        "坐地传情：四川扬琴的室内剧场魅力",
+        "三国故事如何通过扬琴代代相传"
+      ]
+    },
+    "embedding_text": "四川扬琴 Sichuan Yangqin 琴书 非遗 2008年 扬琴 说唱 分角色 三国 川剧 曲艺"
+  },
+  {
+    "id": "ich_014",
+    "title_zh": "蒙顶山茶传统制作技艺",
+    "title_en": "Mengding Mountain Tea Traditional Production Techniques",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "蒙顶山位于四川雅安，是中国人工种茶最早的地方——西汉甘露年间（公元前53年）吴理真在蒙顶山植茶，被尊为'茶祖'。蒙顶山茶自唐代起就是贡茶，'蒙山顶上茶'是蜀中三绝之一。蒙顶甘露和蒙顶黄芽是最具代表性的品种。蒙顶山也是茶马古道川藏线的起点——雅安藏茶从这里出发，翻越二郎山、折多山，到达康定和拉萨。",
+      "summary_en": "Mengding Mountain in Ya'an, Sichuan, is the earliest site of artificial tea cultivation in China. In 53 BCE during the Western Han, Wu Lizhen planted tea on Mengding and was revered as the Tea Ancestor. Mengding Mountain tea has been imperial tribute since the Tang Dynasty. Its most representative varieties are Mengding Ganlu (Sweet Dew) and Mengding Huangya (Yellow Bud). Mengding is also the starting point of the Sichuan-Tibet route of the Tea Horse Road — Ya'an Tibetan tea departed from here, crossing Erlang Mountain and Zheduo Mountain to reach Kangding and Lhasa.",
+      "key_facts": [
+        {
+          "zh": "公元前53年吴理真在蒙顶山植茶，中国人工种茶最早记录",
+          "en": "53 BCE: Wu Lizhen planted tea on Mengding, China's earliest record of artificial tea cultivation"
+        },
+        {
+          "zh": "唐代起就是贡茶",
+          "en": "Imperial tribute tea since the Tang Dynasty"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "茶祖",
+          "en": "Tea Ancestor",
+          "context": "对最早人工种植茶树的吴理真的尊称"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "最好的茶叶都在云南和福建",
+          "fact": "蒙顶山是中国茶文化的发源地之一，蒙顶甘露和黄芽在唐代已是顶级贡茶"
+        }
+      ],
+      "narrative_angles": [
+        "茶祖吴理真：中国茶文化起源的另一种叙事",
+        "从蒙顶山到拉萨：一片茶叶的2000公里朝圣"
+      ]
+    },
+    "embedding_text": "蒙顶山 Mengding Mountain 茶 tea 吴理真 公元前53年 茶祖 贡茶 雅安 茶马古道 蒙顶甘露 蒙顶黄芽 藏茶"
+  },
+  {
+    "id": "ich_015",
+    "title_zh": "宜宾燃面——舌尖上的巴蜀记忆",
+    "title_en": "Yibin Ranmian: The Taste of Ba-Shu Memory",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "宜宾燃面是四川宜宾最具代表性的传统小吃，以'油重无水、点火即燃'得名。燃面的精髓在于'三熟'——面熟、油熟、料熟，以及碎花生、芽菜、葱花、芝麻等十余种配料。宜宾燃面的起源与码头工人有关——高热量、快制作、价廉物美，适合长江码头体力劳动者的需求。宜宾燃面制作技艺已被列入市级非遗。",
+      "summary_en": "Yibin Ranmian (Burning Noodles) is Yibin's most iconic traditional snack, named for being so oil-rich and water-free that it can supposedly be lit on fire. Its essence lies in the triple readiness — noodles, oil, and seasonings — plus over ten garnishes including crushed peanuts, preserved mustard greens, scallions, and sesame. Its origins are tied to dock workers: high-calorie, quick to prepare, and affordable, perfectly suiting the needs of Yangtze River dock laborers. The technique has been listed as municipal-level ICH.",
+      "key_facts": [
+        {
+          "zh": "以油重无水、点火即燃得名",
+          "en": "Named for being oil-rich enough to theoretically ignite"
+        },
+        {
+          "zh": "起源于长江码头工人的饮食需求",
+          "en": "Originated from the dietary needs of Yangtze River dock workers"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "燃面",
+          "en": "Ranmian / Burning Noodles",
+          "context": "四川宜宾特产面食，因油重得名"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "燃面真的能点燃",
+          "fact": "燃面并非真的能当燃料燃烧，其名称夸张地形容其油分充足、干香爽口的特点"
+        }
+      ],
+      "narrative_angles": [
+        "一碗面里的长江码头史",
+        "从码头小吃到城市名片：燃面的文化升级之路"
+      ]
+    },
+    "embedding_text": "宜宾燃面 Yibin Ranmian 四川小吃 码头工人 芽菜 花生 长江 非遗 传统美食 面食"
+  },
+  {
+    "id": "ich_016",
+    "title_zh": "四川清音——婉转悠扬的蜀地雅韵",
+    "title_en": "Sichuan Qingyin: The Melodious Elegance of Shu",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "四川清音是国家级非物质文化遗产（2008年），是四川最具代表性的曲艺形式之一。表演者左手持板、右手敲竹鼓，以四川方言演唱，曲调婉转优美。传统曲目分为小调和大调两类，小调轻快活泼，大调叙事性强。四川清音在清代由长江下游的时调传入四川后本土化形成，吸收了川剧和四川民歌的元素。代表曲目《小放风筝》《布谷鸟儿咕咕叫》广为流传。",
+      "summary_en": "Sichuan Qingyin, a National ICH (2008), is one of Sichuan's most representative narrative singing forms. The performer holds clappers in the left hand and strikes a bamboo drum with the right, singing in Sichuan dialect with graceful melodies. The repertoire divides into light, lively minor tunes and narrative major tunes. Sichuan Qingyin formed when Lower Yangtze popular tunes entered Sichuan in the Qing Dynasty and were localized, absorbing elements of Sichuan Opera and folk songs.",
+      "key_facts": [
+        {
+          "zh": "2008年列入国家级非遗",
+          "en": "National ICH inscribed 2008"
+        },
+        {
+          "zh": "表演者左手持板、右手敲竹鼓",
+          "en": "Performer holds clappers in left hand, strikes bamboo drum with right"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "清音",
+          "en": "Qingyin / Pure Tunes",
+          "context": "四川曲艺种类，以清雅婉转著称"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "清音和扬琴是一回事",
+          "fact": "四川清音和四川扬琴是不同的曲艺形式——清音为单人表演，扬琴为多人分角色演唱"
+        }
+      ],
+      "narrative_angles": [
+        "从长江下游到成都茶馆：清音的本土化之旅",
+        "竹鼓声声：一位清音艺人的日常"
+      ]
+    },
+    "embedding_text": "四川清音 Sichuan Qingyin 曲艺 非遗 2008年 竹鼓 四川方言 小调 大调 川剧 时调"
+  },
+  {
+    "id": "ich_017",
+    "title_zh": "成都糖画——以糖为墨的街头艺术",
+    "title_en": "Chengdu Sugar Painting: Street Art in Molten Sugar",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "成都糖画是国家级非物质文化遗产（2008年），以铜勺为笔、糖稀为墨，在大理石板上浇铸出栩栩如生的图案。糖画题材涵盖花鸟鱼虫、飞禽走兽和神话人物。成都糖画源于明代，盛行于清代庙会和街头。糖画艺人需要在糖稀凝固前的极短时间内完成创作，既有绘画的设计感又有即兴创作的随机性。锦里的糖画摊是最受外国游客欢迎的文化体验点之一。",
+      "summary_en": "Chengdu Sugar Painting, a National ICH (2008), uses a copper ladle as brush and molten sugar as ink to cast vivid patterns on a marble slab. Subjects range from flora and fauna to mythological figures. Originating in the Ming Dynasty, it flourished at Qing Dynasty temple fairs and street corners. Artists must complete their work within the brief window before the sugar hardens, combining painterly design with improvisational spontaneity. Sugar painting stalls at Jinli are among the most popular cultural experiences for foreign visitors.",
+      "key_facts": [
+        {
+          "zh": "2008年列入国家级非遗",
+          "en": "National ICH inscribed 2008"
+        },
+        {
+          "zh": "以铜勺为笔、糖稀为墨，在大理石板上浇铸",
+          "en": "Casts patterns on marble slabs using a copper ladle and molten sugar"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "糖画",
+          "en": "Sugar Painting",
+          "context": "以融化的蔗糖为原料制作的平面或立体造型艺术"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "糖画只是儿童零食",
+          "fact": "糖画是集绘画、雕塑和民间工艺于一体的综合性艺术"
+        }
+      ],
+      "narrative_angles": [
+        "15秒的艺术：糖稀凝固前的创作极限",
+        "糖画的国际传播：最受外国游客欢迎的中国街头艺术"
+      ]
+    },
+    "embedding_text": "成都糖画 Chengdu Sugar Painting 非遗 2008年 糖稀 铜勺 大理石 街头艺术 锦里 明代 清代 庙会"
+  },
+  {
+    "id": "ich_018",
+    "title_zh": "夹江竹纸制作技艺",
+    "title_en": "Jiajiang Bamboo Paper Making Technique",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "夹江竹纸产于乐山市夹江县，是国家级非物质文化遗产（2006年）。夹江竹纸以嫩竹为原料，经过72道工序、历时约3个月制成，纸质洁白细腻、韧性强。在明清时期，夹江竹纸是书写和绘画的上等用纸，张大千曾专门定制夹江纸用于创作。夹江与安徽宣城并称中国两大手工造纸中心，有'蜀笺'之称。",
+      "summary_en": "Jiajiang Bamboo Paper, produced in Jiajiang County, Leshan, is a National ICH (2006). Made from tender bamboo through 72 processes over about 3 months, the paper is white, fine, and strong. During the Ming-Qing period, Jiajiang paper was a premium material for writing and painting. Master painter Zhang Daqian specially ordered Jiajiang paper for his works. Jiajiang and Xuancheng (Anhui) are the two great centers of handmade paper in China.",
+      "key_facts": [
+        {
+          "zh": "2006年列入国家级非遗",
+          "en": "National ICH inscribed 2006"
+        },
+        {
+          "zh": "72道工序，历时约3个月制成",
+          "en": "72 processes over about 3 months"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "竹纸",
+          "en": "Bamboo Paper",
+          "context": "以竹子纤维为主要原料制成的手工纸"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "中国只有宣纸",
+          "fact": "夹江竹纸与宣纸并称中国两大手工纸，各有特色——竹纸韧性更强"
+        }
+      ],
+      "narrative_angles": [
+        "72道工序的纸艺传奇",
+        "张大千与夹江纸的不解之缘"
+      ]
+    },
+    "embedding_text": "夹江竹纸 Jiajiang Bamboo Paper 非遗 2006年 72道工序 张大千 蜀笺 手工纸 乐山 造纸"
+  },
+  {
+    "id": "ich_019",
+    "title_zh": "羌笛——'羌笛何须怨杨柳'的非遗传承",
+    "title_en": "Qiang Flute: The ICH Legacy of a Tang Dynasty Poem",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "羌笛是羌族最古老的双管吹奏乐器，2006年列入国家级非遗。羌笛用高山箭竹制成，长约20厘米，双管并排各有六孔，演奏时采用循环换气法以实现不间断的持续音。唐代王之涣《凉州词》'羌笛何须怨杨柳，春风不度玉门关'使羌笛成为中国文学史上最著名的少数民族乐器意象。汶川地震后羌笛传承遭受重创，如今通过非遗进校园等方式正在逐步恢复。",
+      "summary_en": "The Qiang Flute, the most ancient double-pipe wind instrument of the Qiang people, was inscribed as National ICH in 2006. Made from high-mountain arrow bamboo, about 20 cm long, it features two parallel pipes each with six holes, played using circular breathing to produce uninterrupted sustained tones. Tang Dynasty poet Wang Zhihuan's famous line — 'Why should the Qiang flute blame the willows? Spring breezes never cross the Jade Gate Pass' — made it the most renowned ethnic minority instrument in Chinese literary history. After the Wenchuan Earthquake, Qiang flute transmission suffered greatly but is now gradually recovering through ICH-in-school programs.",
+      "key_facts": [
+        {
+          "zh": "2006年列入国家级非遗",
+          "en": "National ICH inscribed 2006"
+        },
+        {
+          "zh": "双管并排各六孔，采用循环换气法演奏",
+          "en": "Two parallel pipes each with six holes; played with circular breathing"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "循环换气",
+          "en": "Circular Breathing",
+          "context": "用鼻子吸气同时用口腔存气继续吹奏的技巧"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "羌笛只是诗中的意象",
+          "fact": "羌笛是真实存在的活态乐器，至今仍在羌族社区中演奏和传承"
+        }
+      ],
+      "narrative_angles": [
+        "一首唐诗与一支羌笛的千年对话",
+        "循环换气：羌笛演奏者的生理极限挑战"
+      ]
+    },
+    "embedding_text": "羌笛 Qiang Flute 非遗 2006年 羌族 双管 循环换气 王之涣 凉州词 汶川地震 吹奏乐器"
+  },
+  {
+    "id": "ich_020",
+    "title_zh": "达州灯影牛肉——刀工下的非遗美食",
+    "title_en": "Dazhou Dengying Beef: ICH Cuisine Under the Knife",
+    "module": "intangible_heritage",
+    "type": "entity",
+    "content": {
+      "summary_zh": "达州灯影牛肉产于四川达州，是省级非物质文化遗产。其名称源于牛肉片薄如纸、可透光如皮影（灯影）的极致刀工——片片薄到可以透过灯光看到对面的物影。灯影牛肉选用牛后腿腱子肉，经腌制、晾干、烘烤后手工撕成细丝。相传清代光绪年间，达州一位刘姓厨师偶然创作了这道菜。灯影牛肉是巴蜀饮食文化'食不厌精'理念的极致体现。",
+      "summary_en": "Dazhou Dengying Beef (Shadow-Play Beef), from Dazhou, Sichuan, is a provincial-level ICH. Its name derives from the extreme knife skill required — slices so thin they are translucent like shadow-play figures, through which light can pass. Made from beef shank, it undergoes marination, air-drying, roasting, and hand-shredding into delicate strands. Legend has it that a chef named Liu in Dazhou accidentally created this dish during the Guangxu period of the Qing Dynasty. Dengying Beef is the ultimate expression of the Ba-Shu culinary philosophy of 'striving for refinement in food.'",
+      "key_facts": [
+        {
+          "zh": "省级非遗，牛肉片薄如纸、可透光",
+          "en": "Provincial-level ICH; beef slices are paper-thin and translucent"
+        },
+        {
+          "zh": "源于清光绪年间达州",
+          "en": "Originated in Dazhou during the Qing Guangxu period"
+        }
+      ],
+      "terms": [
+        {
+          "zh": "灯影",
+          "en": "Dengying / Shadow-Play",
+          "context": "皮影戏的别称，形容牛肉片薄到可以透光"
+        }
+      ],
+      "misunderstandings": [
+        {
+          "myth": "灯影牛肉只是普通牛肉干",
+          "fact": "灯影牛肉的核心在刀工——薄如纸、可透光，是中国饮食文化中极致工艺的代表"
+        }
+      ],
+      "narrative_angles": [
+        "薄如蝉翼的刀工技艺",
+        "从偶然创作到非遗：灯影牛肉的百年传奇"
+      ]
+    },
+    "embedding_text": "达州灯影牛肉 Dazhou Dengying Beef 非遗 刀工 薄如纸 牛肉干 达州 光绪 食不厌精 巴蜀饮食"
+  }
+]
