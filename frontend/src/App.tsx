@@ -56,6 +56,7 @@ function App() {
             <Route path="/assessment/:practiceId" element={<AssessmentPage />} />
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/speech-practice" element={<SpeechPracticePage />} />
+            <Route path="/speech-practice/:scriptId" element={<SpeechPracticePage />} />
             <Route path="/speech-result/:practiceId" element={<SpeechResultPage />} />
           </Routes>
         </div>
