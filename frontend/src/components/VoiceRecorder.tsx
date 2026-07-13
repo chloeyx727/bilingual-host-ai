@@ -1,29 +1,48 @@
-import { useState, useRef, useCallback } from 'react'
-import { Mic, Square, Play, Trash2, AlertCircle } from 'lucide-react'
+import { useCallback, useRef, useState } from 'react'
+import { AlertCircle, Mic, Play, Square, Trash2 } from 'lucide-react'
 
 export default function VoiceRecorder({ label, lang, onAudioReady }: {
-  label: string; lang: 'zh-CN' | 'en-US'; onAudioReady: (b64: string) => void
+  label: string
+  lang: 'zh-CN' | 'en-US'
+  onAudioReady: (base64: string) => void
 }) {
   const [recording, setRecording] = useState(false)
   const [audioUrl, setAudioUrl] = useState<string | null>(null)
   const [duration, setDuration] = useState(0)
   const [playing, setPlaying] = useState(false)
   const [error, setError] = useState('')
-  const mrRef = useRef<MediaRecorder | null>(null)
+  const mediaRecorderRef = useRef<MediaRecorder | null>(null)
   const chunksRef = useRef<Blob[]>([])
   const timerRef = useRef<number>(0)
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   const startRecording = useCallback(async () => {
     setError('')
+
+    if (!window.isSecureContext) {
+      setError('浏览器要求录音页面使用 HTTPS。当前是 HTTP 地址，请绑定域名并配置 HTTPS 后再录音。')
+      return
+    }
+
+    if (!navigator.mediaDevices?.getUserMedia) {
+      setError('当前浏览器不支持网页录音，请使用最新版 Chrome 或 Edge。')
+      return
+    }
+
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
-      const mt = MediaRecorder.isTypeSupported('audio/webm;codecs=opus') ? 'audio/webm;codecs=opus' : 'audio/webm'
-      const mr = new MediaRecorder(stream, { mimeType: mt })
-      mrRef.current = mr; chunksRef.current = []
+      const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
+        ? 'audio/webm;codecs=opus'
+        : 'audio/webm'
+      const mediaRecorder = new MediaRecorder(stream, { mimeType })
+      mediaRecorderRef.current = mediaRecorder
+      chunksRef.current = []
 
-      mr.ondataavailable = (e) => { if (e.data.size > 0) chunksRef.current.push(e.data) }
-      mr.onstop = async () => {
+      mediaRecorder.ondataavailable = event => {
+        if (event.data.size > 0) chunksRef.current.push(event.data)
+      }
+
+      mediaRecorder.onstop = async () => {
         const blob = new Blob(chunksRef.current, { type: 'audio/webm' })
         try {
           onAudioReady(await blobToPcm16Base64(blob))
@@ -31,25 +50,55 @@ export default function VoiceRecorder({ label, lang, onAudioReady }: {
         } catch {
           onAudioReady('')
           setAudioUrl(null)
-          setError('音频转换失败，请重新录制')
+          setError('音频转换失败，请重新录制。')
         } finally {
-          stream.getTracks().forEach(t => t.stop())
+          stream.getTracks().forEach(track => track.stop())
         }
       }
-      mr.onerror = () => { setError('录音失败'); setRecording(false); stream.getTracks().forEach(t => t.stop()) }
-      mr.start(); setRecording(true); setAudioUrl(null); setDuration(0)
+
+      mediaRecorder.onerror = () => {
+        setError('录音失败，请重新尝试。')
+        setRecording(false)
+        stream.getTracks().forEach(track => track.stop())
+      }
+
+      mediaRecorder.start()
+      setRecording(true)
+      setAudioUrl(null)
+      setDuration(0)
       const start = Date.now()
-      timerRef.current = window.setInterval(() => setDuration(Math.floor((Date.now() - start) / 1000)), 200)
-    } catch (e: any) {
-      if (e.name === 'NotAllowedError') setError('麦克风权限被拒绝')
-      else if (e.name === 'NotFoundError') setError('未检测到麦克风')
-      else setError('无法启动录音')
+      timerRef.current = window.setInterval(() => {
+        setDuration(Math.floor((Date.now() - start) / 1000))
+      }, 200)
+    } catch (err: any) {
+      if (err.name === 'NotAllowedError') {
+        setError('麦克风权限被拒绝，请在浏览器地址栏允许麦克风权限。')
+      } else if (err.name === 'NotFoundError') {
+        setError('未检测到麦克风，请连接麦克风后重试。')
+      } else {
+        setError('无法启动录音，请检查浏览器权限和麦克风设备。')
+      }
     }
   }, [onAudioReady])
 
-  const stopRecording = useCallback(() => { mrRef.current?.stop(); setRecording(false); clearInterval(timerRef.current) }, [])
-  const playAudio = () => { if (audioRef.current) { audioRef.current.play(); setPlaying(true); audioRef.current.onended = () => setPlaying(false) } }
-  const discard = () => { setAudioUrl(null); onAudioReady(''); setError('') }
+  const stopRecording = useCallback(() => {
+    mediaRecorderRef.current?.stop()
+    setRecording(false)
+    clearInterval(timerRef.current)
+  }, [])
+
+  const playAudio = () => {
+    if (!audioRef.current) return
+    audioRef.current.play()
+    setPlaying(true)
+    audioRef.current.onended = () => setPlaying(false)
+  }
+
+  const discard = () => {
+    setAudioUrl(null)
+    onAudioReady('')
+    setError('')
+  }
 
   return (
     <div>
@@ -57,36 +106,49 @@ export default function VoiceRecorder({ label, lang, onAudioReady }: {
         <span className="text-xs font-medium text-gray-500 w-12 shrink-0">{label}</span>
 
         {!audioUrl ? (
-          <button onClick={recording ? stopRecording : startRecording} type="button"
+          <button
+            onClick={recording ? stopRecording : startRecording}
+            type="button"
             className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold transition-all ${
               recording
                 ? 'bg-rose-100 text-rose-600 shadow-sm'
                 : 'bg-white border border-gray-200 text-gray-600 hover:border-violet-300 hover:text-violet-600 shadow-sm'
-            }`}>
+            }`}
+          >
             {recording ? <><Square size={11} /> 停止 {formatTime(duration)}</> : <><Mic size={11} /> 录音</>}
           </button>
         ) : (
           <div className="flex items-center gap-1">
-            <button onClick={playAudio} type="button"
-              className={`p-1.5 rounded-lg text-xs transition-all ${playing ? 'bg-violet-100 text-violet-600' : 'bg-gray-100 text-gray-500 hover:bg-violet-50 hover:text-violet-600'}`}>
-              <Play size={12} /></button>
-            <button onClick={discard} type="button"
-              className="p-1.5 rounded-lg bg-gray-100 text-gray-400 hover:bg-rose-50 hover:text-rose-500 transition-all">
-              <Trash2 size={12} /></button>
-            <button onClick={startRecording} type="button"
-              className="p-1.5 rounded-lg bg-gray-100 text-gray-400 hover:bg-violet-50 hover:text-violet-600 transition-all" title="重录">
-              <Mic size={12} /></button>
+            <button
+              onClick={playAudio}
+              type="button"
+              className={`p-1.5 rounded-lg text-xs transition-all ${
+                playing ? 'bg-violet-100 text-violet-600' : 'bg-gray-100 text-gray-500 hover:bg-violet-50 hover:text-violet-600'
+              }`}
+            >
+              <Play size={12} />
+            </button>
+            <button onClick={discard} type="button" className="p-1.5 rounded-lg bg-gray-100 text-gray-400 hover:bg-rose-50 hover:text-rose-500 transition-all">
+              <Trash2 size={12} />
+            </button>
+            <button onClick={startRecording} type="button" className="p-1.5 rounded-lg bg-gray-100 text-gray-400 hover:bg-violet-50 hover:text-violet-600 transition-all" title="重录">
+              <Mic size={12} />
+            </button>
             <span className="text-xs text-emerald-600 font-semibold ml-1">已录制 {formatTime(duration)}</span>
           </div>
         )}
       </div>
-      {error && <div className="flex items-center gap-1 mt-1.5 ml-14 text-xs text-rose-500"><AlertCircle size={11} /> {error}</div>}
+      {error && <div className="flex items-start gap-1 mt-1.5 ml-14 text-xs text-rose-500"><AlertCircle size={11} className="mt-0.5 shrink-0" /> {error}</div>}
       {audioUrl && <audio ref={audioRef} src={audioUrl} className="hidden" />}
     </div>
   )
 }
 
-function formatTime(s: number) { const m = Math.floor(s / 60); const sec = s % 60; return `${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}` }
+function formatTime(seconds: number) {
+  const minutes = Math.floor(seconds / 60)
+  const remainingSeconds = seconds % 60
+  return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`
+}
 
 async function blobToPcm16Base64(blob: Blob, targetSampleRate = 16000) {
   const AudioContextCtor = window.AudioContext || (window as any).webkitAudioContext
@@ -107,7 +169,9 @@ function mixToMono(audioBuffer: AudioBuffer) {
   const mono = new Float32Array(audioBuffer.length)
   for (let channel = 0; channel < audioBuffer.numberOfChannels; channel += 1) {
     const data = audioBuffer.getChannelData(channel)
-    for (let i = 0; i < data.length; i += 1) mono[i] += data[i] / audioBuffer.numberOfChannels
+    for (let index = 0; index < data.length; index += 1) {
+      mono[index] += data[index] / audioBuffer.numberOfChannels
+    }
   }
   return mono
 }
@@ -117,12 +181,12 @@ function resampleLinear(input: Float32Array, sourceSampleRate: number, targetSam
   const ratio = sourceSampleRate / targetSampleRate
   const output = new Float32Array(Math.max(1, Math.round(input.length / ratio)))
 
-  for (let i = 0; i < output.length; i += 1) {
-    const sourceIndex = i * ratio
+  for (let index = 0; index < output.length; index += 1) {
+    const sourceIndex = index * ratio
     const left = Math.floor(sourceIndex)
     const right = Math.min(left + 1, input.length - 1)
     const weight = sourceIndex - left
-    output[i] = input[left] * (1 - weight) + input[right] * weight
+    output[index] = input[left] * (1 - weight) + input[right] * weight
   }
 
   return output
@@ -131,9 +195,9 @@ function resampleLinear(input: Float32Array, sourceSampleRate: number, targetSam
 function floatToPcm16(samples: Float32Array) {
   const bytes = new Uint8Array(samples.length * 2)
   const view = new DataView(bytes.buffer)
-  for (let i = 0; i < samples.length; i += 1) {
-    const sample = Math.max(-1, Math.min(1, samples[i]))
-    view.setInt16(i * 2, sample < 0 ? sample * 0x8000 : sample * 0x7fff, true)
+  for (let index = 0; index < samples.length; index += 1) {
+    const sample = Math.max(-1, Math.min(1, samples[index]))
+    view.setInt16(index * 2, sample < 0 ? sample * 0x8000 : sample * 0x7fff, true)
   }
   return bytes
 }
@@ -141,8 +205,8 @@ function floatToPcm16(samples: Float32Array) {
 function bytesToBase64(bytes: Uint8Array) {
   let binary = ''
   const chunkSize = 0x8000
-  for (let i = 0; i < bytes.length; i += chunkSize) {
-    binary += String.fromCharCode(...Array.from(bytes.subarray(i, i + chunkSize)))
+  for (let index = 0; index < bytes.length; index += chunkSize) {
+    binary += String.fromCharCode(...Array.from(bytes.subarray(index, index + chunkSize)))
   }
   return btoa(binary)
 }
