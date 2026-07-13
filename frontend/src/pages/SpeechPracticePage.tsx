@@ -33,8 +33,8 @@ function SpeechScriptSelectionPage() {
             <Mic size={20} />
           </div>
           <div>
-            <h2 className="text-xl font-bold text-gray-900 mb-1">录音专项测评</h2>
-            <p className="text-sm text-gray-500">先选择一篇巴蜀文化双语文稿，再分别完成中文和英文录音测评。</p>
+            <h2 className="text-xl font-bold text-gray-900 mb-1">录音专项测评选题</h2>
+            <p className="text-sm text-gray-500">请选择一篇巴蜀文化双语文稿，随后进入独立录制页面。</p>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@ function SpeechScriptSelectionPage() {
               </div>
               <h3 className="font-bold text-gray-900">{category}</h3>
               <span className="text-xs text-gray-400">
-                {SPEECH_SCRIPTS.filter(script => script.category === category).length} 篇
+                {SPEECH_SCRIPTS.filter(script => script.category === category).length} 篇文稿
               </span>
             </div>
 
@@ -65,7 +65,7 @@ function SpeechScriptSelectionPage() {
                       <h4 className="font-semibold text-gray-900 text-sm mb-1">{script.title}</h4>
                       <p className="text-xs text-gray-400">{script.categoryEn}</p>
                     </div>
-                    <span className="text-xs font-semibold text-violet-600 shrink-0">开始录制</span>
+                    <span className="text-xs font-semibold text-violet-600 shrink-0">选择文稿</span>
                   </div>
                 </button>
               ))}
@@ -81,37 +81,63 @@ function SpeechRecordingPage({ script }: { script: SpeechScript }) {
   const navigate = useNavigate()
   const [audioCnBase64, setAudioCnBase64] = useState('')
   const [audioEnBase64, setAudioEnBase64] = useState('')
-  const [submitting, setSubmitting] = useState(false)
-  const [error, setError] = useState('')
+  const [submittingCn, setSubmittingCn] = useState(false)
+  const [submittingEn, setSubmittingEn] = useState(false)
+  const [errorCn, setErrorCn] = useState('')
+  const [errorEn, setErrorEn] = useState('')
 
-  async function handleSubmit() {
-    if (!audioCnBase64 && !audioEnBase64) {
-      setError('请至少完成一段录音')
+  async function submitChinese() {
+    if (!audioCnBase64) {
+      setErrorCn('请先完成中文录音')
       return
     }
 
-    setSubmitting(true)
-    setError('')
+    setSubmittingCn(true)
+    setErrorCn('')
 
     try {
       const result = await api.speechOnly({
         audio_cn_base64: audioCnBase64,
-        audio_en_base64: audioEnBase64,
+        audio_en_base64: '',
         text_cn: script.textCn,
+        text_en: '',
+      })
+      navigate(`/speech-result/${result.practice_id}`)
+    } catch (err: any) {
+      setErrorCn(err.message || '中文录音提交失败')
+    } finally {
+      setSubmittingCn(false)
+    }
+  }
+
+  async function submitEnglish() {
+    if (!audioEnBase64) {
+      setErrorEn('Please finish the English recording first')
+      return
+    }
+
+    setSubmittingEn(true)
+    setErrorEn('')
+
+    try {
+      const result = await api.speechOnly({
+        audio_cn_base64: '',
+        audio_en_base64: audioEnBase64,
+        text_cn: '',
         text_en: script.textEn,
       })
       navigate(`/speech-result/${result.practice_id}`)
     } catch (err: any) {
-      setError(err.message || '提交失败')
+      setErrorEn(err.message || 'English recording submission failed')
     } finally {
-      setSubmitting(false)
+      setSubmittingEn(false)
     }
   }
 
   return (
     <div className="max-w-5xl mx-auto space-y-6 animate-fade-in">
       <button onClick={() => navigate('/speech-practice')} className="btn-ghost text-sm">
-        <ArrowLeft size={15} /> 返回选题
+        <ArrowLeft size={15} /> 返回选题页面
       </button>
 
       <div className="card bg-gradient-to-br from-violet-50 to-white border-violet-100/50">
@@ -130,44 +156,38 @@ function SpeechRecordingPage({ script }: { script: SpeechScript }) {
         <section className="card border-l-[3px] border-l-rose-400 space-y-4">
           <div>
             <h3 className="font-bold text-gray-900">中文录音</h3>
-            <p className="text-xs text-gray-400 mt-1">朗读下方中文文稿，完成后可播放、重录或提交测评。</p>
+            <p className="text-xs text-gray-400 mt-1">朗读中文文稿，录制完成后单独上传中文测评。</p>
           </div>
           <div className="bg-rose-50/60 rounded-xl p-4 text-sm text-gray-700 leading-relaxed">{script.textCn}</div>
           <div className="bg-white rounded-xl border border-gray-100 p-4">
             <VoiceRecorder label="中文" lang="zh-CN" onAudioReady={setAudioCnBase64} />
           </div>
+          <div className="flex items-center justify-between gap-3 pt-1">
+            <span className="text-xs text-gray-400">{audioCnBase64 ? '中文录音已准备' : '等待中文录音'}</span>
+            <button onClick={submitChinese} disabled={submittingCn} className="btn-primary">
+              {submittingCn ? <><Loader2 size={16} className="animate-spin" /> 中文测评中...</> : <><Send size={16} /> 上传中文测评</>}
+            </button>
+          </div>
+          {errorCn && <p className="text-sm text-rose-500 font-medium">{errorCn}</p>}
         </section>
 
         <section className="card border-l-[3px] border-l-blue-400 space-y-4">
           <div>
             <h3 className="font-bold text-gray-900">English Recording</h3>
-            <p className="text-xs text-gray-400 mt-1">Read the English script below, then play back, re-record, or submit.</p>
+            <p className="text-xs text-gray-400 mt-1">Read the English script, then upload the English assessment separately.</p>
           </div>
           <div className="bg-blue-50/60 rounded-xl p-4 text-sm text-gray-700 leading-relaxed">{script.textEn}</div>
           <div className="bg-white rounded-xl border border-gray-100 p-4">
             <VoiceRecorder label="English" lang="en-US" onAudioReady={setAudioEnBase64} />
           </div>
+          <div className="flex items-center justify-between gap-3 pt-1">
+            <span className="text-xs text-gray-400">{audioEnBase64 ? 'English recording is ready' : 'Waiting for English recording'}</span>
+            <button onClick={submitEnglish} disabled={submittingEn} className="btn-primary">
+              {submittingEn ? <><Loader2 size={16} className="animate-spin" /> Assessing...</> : <><Send size={16} /> Upload English Assessment</>}
+            </button>
+          </div>
+          {errorEn && <p className="text-sm text-rose-500 font-medium">{errorEn}</p>}
         </section>
-      </div>
-
-      <div className="flex items-center justify-between bg-white rounded-2xl border border-gray-100 px-5 py-3.5 shadow-sm">
-        <span className="text-sm text-gray-400">
-          {audioCnBase64 || audioEnBase64 ? '录音已准备，可提交测评' : '请先完成中文或英文录音'}
-        </span>
-        <div className="flex items-center gap-3">
-          {error && <span className="text-sm text-rose-500 font-medium">{error}</span>}
-          <button onClick={handleSubmit} disabled={submitting} className="btn-primary">
-            {submitting ? (
-              <>
-                <Loader2 size={16} className="animate-spin" /> 测评中...
-              </>
-            ) : (
-              <>
-                <Send size={16} /> 提交测评
-              </>
-            )}
-          </button>
-        </div>
       </div>
     </div>
   )
