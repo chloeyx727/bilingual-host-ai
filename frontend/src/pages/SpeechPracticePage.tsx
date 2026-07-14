@@ -47,9 +47,6 @@ function SpeechScriptSelectionPage() {
                 <FileText size={14} className="text-indigo-600" />
               </div>
               <h3 className="font-bold text-gray-900">{category}</h3>
-              <span className="text-xs text-gray-400">
-                {SPEECH_SCRIPTS.filter(script => script.category === category).length} 篇文稿
-              </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
