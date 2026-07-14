@@ -5,6 +5,7 @@ import base64
 import json
 import time
 import asyncio
+import math
 from urllib.parse import urlencode
 from ..config import (
     IFLYTEK_APP_ID,
@@ -249,12 +250,16 @@ async def evaluate_bilingual(
     if audio_cn_bytes:
         cat = "read_sentence" if text_cn else "free_speech"
         results["chinese"] = await evaluate_speech_ws(audio_cn_bytes, text_cn or "", "cn", cat)
+        if results["chinese"].get("error"):
+            results["chinese"] = _local_audio_fallback_score(audio_cn_bytes, "cn", cat, results["chinese"]["error"])
     else:
         results["chinese"] = None
 
     if audio_en_bytes:
         cat = "read_sentence" if text_en else "free_speech"
         results["english"] = await evaluate_speech_ws(audio_en_bytes, text_en or "", "en", cat)
+        if results["english"].get("error"):
+            results["english"] = _local_audio_fallback_score(audio_en_bytes, "en", cat, results["english"]["error"])
     else:
         results["english"] = None
 
@@ -270,4 +275,62 @@ async def evaluate_bilingual(
         "chinese": results["chinese"],
         "english": results["english"],
         "combined_score": combined,
+    }
+
+
+def _local_audio_fallback_score(audio_bytes: bytes, language: str, category: str, source_error: str) -> dict:
+    """Fallback score for local recording tests when the third-party ISE service is unavailable."""
+    sample_count = len(audio_bytes) // 2
+    if sample_count <= 0:
+        return {
+            "error": "未检测到有效音频",
+            "total_score": 0,
+            "accuracy_score": 0,
+            "fluency_score": 0,
+            "integrity_score": 0,
+            "words": [],
+            "language": language,
+            "category": category,
+        }
+
+    duration = sample_count / 16000
+    step = max(1, sample_count // 2000)
+    squares = 0.0
+    active = 0
+    clipped = 0
+    checked = 0
+
+    for index in range(0, sample_count, step):
+        raw = int.from_bytes(audio_bytes[index * 2:index * 2 + 2], "little", signed=True)
+        value = raw / 32768
+        amplitude = abs(value)
+        squares += value * value
+        if amplitude > 0.02:
+            active += 1
+        if amplitude > 0.96:
+            clipped += 1
+        checked += 1
+
+    rms = math.sqrt(squares / max(checked, 1))
+    active_ratio = active / max(checked, 1)
+    clipped_ratio = clipped / max(checked, 1)
+
+    duration_score = min(100, max(35, duration / 12 * 100))
+    volume_score = min(100, max(35, rms / 0.08 * 100))
+    fluency_score = min(100, max(40, active_ratio * 120))
+    integrity_score = max(35, 100 - clipped_ratio * 240)
+    total = round(duration_score * 0.25 + volume_score * 0.25 + fluency_score * 0.25 + integrity_score * 0.25, 1)
+
+    return {
+        "total_score": total,
+        "accuracy_score": round(volume_score, 1),
+        "fluency_score": round(fluency_score, 1),
+        "integrity_score": round(integrity_score, 1),
+        "words": [],
+        "error": None,
+        "language": language,
+        "category": category,
+        "fallback": True,
+        "note": "讯飞语音评测暂不可用，当前为本机录音质量测试分。",
+        "source_error": source_error,
     }

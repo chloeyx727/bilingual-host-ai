@@ -39,6 +39,7 @@ export default function SpeechResultPage() {
 
   const hasCn = result.chinese && !result.chinese.error
   const hasEn = result.english && !result.english.error
+  const hasFallback = Boolean(result.chinese?.fallback || result.english?.fallback)
 
   return (
     <div className="max-w-2xl mx-auto space-y-6 animate-fade-in">
@@ -49,6 +50,11 @@ export default function SpeechResultPage() {
         <p className="text-4xl font-extrabold text-violet-600 mt-3">
           {result.combined_score}<span className="text-base text-gray-400 font-medium"> / 100</span>
         </p>
+        {hasFallback && (
+          <p className="text-xs text-amber-600 mt-3">
+            讯飞语音评测暂不可用，当前显示本机录音质量测试分。
+          </p>
+        )}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
