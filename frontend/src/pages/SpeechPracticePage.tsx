@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { ArrowLeft, FileText, Loader2, Mic, Send } from 'lucide-react'
+import { AlertCircle, ArrowLeft, FileText, Loader2, Mic, Send } from 'lucide-react'
 import { api } from '../api/client'
 import VoiceRecorder from '../components/VoiceRecorder'
 import { SPEECH_SCRIPTS, SpeechScript } from '../data/speechScripts'
@@ -85,6 +85,7 @@ function SpeechRecordingPage({ script }: { script: SpeechScript }) {
   const [submittingEn, setSubmittingEn] = useState(false)
   const [errorCn, setErrorCn] = useState('')
   const [errorEn, setErrorEn] = useState('')
+  const isInsecurePublicPage = !window.isSecureContext
 
   async function submitChinese() {
     if (!audioCnBase64) {
@@ -152,6 +153,16 @@ function SpeechRecordingPage({ script }: { script: SpeechScript }) {
         </div>
       </div>
 
+      {isInsecurePublicPage && (
+        <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 flex items-start gap-2 text-sm text-amber-800">
+          <AlertCircle size={16} className="mt-0.5 shrink-0" />
+          <div>
+            <p className="font-semibold">当前公网 HTTP 地址不能直接调用麦克风。</p>
+            <p className="mt-0.5">录音测试请使用本机 localhost，或给服务器绑定域名并配置 HTTPS 后使用。</p>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <section className="card border-l-[3px] border-l-rose-400 space-y-4">
           <div>
@@ -164,7 +175,7 @@ function SpeechRecordingPage({ script }: { script: SpeechScript }) {
           </div>
           <div className="flex items-center justify-between gap-3 pt-1">
             <span className="text-xs text-gray-400">{audioCnBase64 ? '中文录音已准备' : '等待中文录音'}</span>
-            <button onClick={submitChinese} disabled={submittingCn} className="btn-primary">
+            <button onClick={submitChinese} disabled={!audioCnBase64 || submittingCn} className="btn-primary">
               {submittingCn ? <><Loader2 size={16} className="animate-spin" /> 中文测评中...</> : <><Send size={16} /> 上传中文测评</>}
             </button>
           </div>
@@ -182,7 +193,7 @@ function SpeechRecordingPage({ script }: { script: SpeechScript }) {
           </div>
           <div className="flex items-center justify-between gap-3 pt-1">
             <span className="text-xs text-gray-400">{audioEnBase64 ? 'English recording is ready' : 'Waiting for English recording'}</span>
-            <button onClick={submitEnglish} disabled={submittingEn} className="btn-primary">
+            <button onClick={submitEnglish} disabled={!audioEnBase64 || submittingEn} className="btn-primary">
               {submittingEn ? <><Loader2 size={16} className="animate-spin" /> Assessing...</> : <><Send size={16} /> Upload English Assessment</>}
             </button>
           </div>
