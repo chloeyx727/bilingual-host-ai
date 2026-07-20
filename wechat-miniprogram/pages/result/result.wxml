@@ -1,0 +1,34 @@
+<view class="page result-page safe-bottom">
+  <view class="panel summary">
+    <view class="label">录音评测结果</view>
+    <view class="title">{{title}}</view>
+    <view class="score">{{score}}</view>
+    <view class="score-label">/ 100</view>
+    <view class="note" wx:if="{{fallback}}">当前显示本地录音质量测试分，正式评分需后端语音评测服务可用。</view>
+  </view>
+
+  <view class="panel detail" wx:if="{{detail}}">
+    <view class="detail-head">
+      <view class="detail-title">{{langLabel}}</view>
+      <view class="pill">{{detail.category}}</view>
+    </view>
+    <view class="grid">
+      <view class="metric">
+        <view class="metric-value">{{detail.accuracy_score || 0}}</view>
+        <view class="metric-label">准确度</view>
+      </view>
+      <view class="metric">
+        <view class="metric-value">{{detail.fluency_score || 0}}</view>
+        <view class="metric-label">流畅度</view>
+      </view>
+      <view class="metric">
+        <view class="metric-value">{{detail.integrity_score || 0}}</view>
+        <view class="metric-label">完整度</view>
+      </view>
+    </view>
+    <view class="advice">{{advice}}</view>
+  </view>
+
+  <button class="button primary" bindtap="backToScripts">继续选择文稿</button>
+  <button class="button ghost" bindtap="backHome">返回首页</button>
+</view>

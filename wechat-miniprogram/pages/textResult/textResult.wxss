@@ -1,0 +1,109 @@
+.result-page {
+  background:
+    linear-gradient(180deg, rgba(157, 47, 47, 0.12), transparent 380rpx),
+    #f7f3ea;
+}
+
+.summary {
+  padding: 42rpx 34rpx;
+  text-align: center;
+}
+
+.label {
+  color: #9d2f2f;
+  font-size: 25rpx;
+  font-weight: 850;
+}
+
+.title {
+  margin-top: 16rpx;
+  color: #17211f;
+  font-size: 32rpx;
+  font-weight: 820;
+  line-height: 1.38;
+}
+
+.grade {
+  width: 104rpx;
+  height: 104rpx;
+  margin: 28rpx auto 0;
+  border-radius: 50%;
+  color: #fff;
+  background: #9d2f2f;
+  font-size: 50rpx;
+  font-weight: 900;
+  line-height: 104rpx;
+}
+
+.score {
+  margin-top: 20rpx;
+  color: #17211f;
+  font-size: 86rpx;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.score-label,
+.pending {
+  margin-top: 12rpx;
+  color: #858d89;
+  font-size: 27rpx;
+}
+
+.section {
+  margin-top: 24rpx;
+  padding: 30rpx;
+}
+
+.section-title {
+  color: #17211f;
+  font-size: 31rpx;
+  font-weight: 850;
+  margin-bottom: 18rpx;
+}
+
+.item {
+  padding: 18rpx 0;
+  color: #45504b;
+  font-size: 27rpx;
+  line-height: 1.55;
+  border-top: 1rpx solid rgba(31, 38, 37, 0.08);
+}
+
+.dimension {
+  padding: 20rpx 0;
+  border-top: 1rpx solid rgba(31, 38, 37, 0.08);
+}
+
+.dimension-head {
+  display: flex;
+  justify-content: space-between;
+  color: #17211f;
+  font-size: 27rpx;
+  font-weight: 760;
+}
+
+.bar {
+  height: 12rpx;
+  margin-top: 14rpx;
+  border-radius: 999rpx;
+  overflow: hidden;
+  background: rgba(31, 38, 37, 0.08);
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 999rpx;
+  background: #e6c878;
+}
+
+.feedback {
+  margin-top: 14rpx;
+  color: #6a736e;
+  font-size: 24rpx;
+  line-height: 1.55;
+}
+
+button {
+  margin-top: 22rpx;
+}

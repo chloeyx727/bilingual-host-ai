@@ -245,6 +245,8 @@ async def evaluate_bilingual(
     text_en: str = "",
 ) -> dict:
     """双语语音评测"""
+    audio_cn_bytes = _extract_pcm_from_wav(audio_cn_bytes)
+    audio_en_bytes = _extract_pcm_from_wav(audio_en_bytes)
     results = {}
 
     if audio_cn_bytes:
@@ -276,6 +278,23 @@ async def evaluate_bilingual(
         "english": results["english"],
         "combined_score": combined,
     }
+
+
+def _extract_pcm_from_wav(audio_bytes: bytes) -> bytes:
+    """Return 16-bit PCM payload when a mini-program uploads a WAV file."""
+    if not audio_bytes.startswith(b"RIFF") or audio_bytes[8:12] != b"WAVE":
+        return audio_bytes
+
+    offset = 12
+    while offset + 8 <= len(audio_bytes):
+        chunk_id = audio_bytes[offset:offset + 4]
+        chunk_size = int.from_bytes(audio_bytes[offset + 4:offset + 8], "little", signed=False)
+        chunk_data_start = offset + 8
+        if chunk_id == b"data":
+            return audio_bytes[chunk_data_start:chunk_data_start + chunk_size]
+        offset = chunk_data_start + chunk_size + (chunk_size % 2)
+
+    return audio_bytes
 
 
 def _local_audio_fallback_score(audio_bytes: bytes, language: str, category: str, source_error: str) -> dict:

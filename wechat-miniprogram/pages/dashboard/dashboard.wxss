@@ -1,0 +1,174 @@
+.dashboard-page {
+  background:
+    linear-gradient(180deg, rgba(28, 74, 72, 0.12), transparent 360rpx),
+    #f7f3ea;
+}
+
+.header {
+  padding: 18rpx 0 34rpx;
+}
+
+.eyebrow {
+  color: #1c4a48;
+  font-size: 24rpx;
+  font-weight: 850;
+}
+
+.title {
+  margin-top: 14rpx;
+  color: #17211f;
+  font-size: 46rpx;
+  font-weight: 900;
+  line-height: 1.18;
+}
+
+.intro {
+  margin-top: 18rpx;
+  color: #66706b;
+  font-size: 27rpx;
+  line-height: 1.65;
+}
+
+.loading,
+.empty {
+  padding: 44rpx 30rpx;
+  color: #66706b;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.empty-title {
+  color: #17211f;
+  font-size: 34rpx;
+  font-weight: 850;
+}
+
+.empty-text {
+  margin-top: 14rpx;
+  color: #77807b;
+  font-size: 26rpx;
+}
+
+.retry {
+  margin-top: 28rpx;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18rpx;
+}
+
+.stat {
+  padding: 30rpx 20rpx;
+  text-align: center;
+}
+
+.stat-value {
+  color: #9d2f2f;
+  font-size: 52rpx;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.stat-label {
+  margin-top: 12rpx;
+  color: #74807a;
+  font-size: 24rpx;
+}
+
+.section {
+  margin-top: 24rpx;
+  padding: 30rpx;
+}
+
+.section-title {
+  color: #17211f;
+  font-size: 31rpx;
+  font-weight: 850;
+  margin-bottom: 22rpx;
+}
+
+.radar-section {
+  padding-bottom: 18rpx;
+}
+
+.radar-canvas {
+  display: block;
+  width: 640rpx;
+  height: 560rpx;
+  margin: 0 auto;
+}
+
+.grade-row {
+  display: grid;
+  grid-template-columns: 64rpx 1fr 64rpx;
+  align-items: center;
+  gap: 16rpx;
+  margin-top: 18rpx;
+}
+
+.grade-name {
+  color: #17211f;
+  font-size: 28rpx;
+  font-weight: 900;
+}
+
+.grade-count {
+  color: #66706b;
+  font-size: 25rpx;
+  text-align: right;
+}
+
+.grade-bar,
+.bar {
+  height: 14rpx;
+  border-radius: 999rpx;
+  overflow: hidden;
+  background: rgba(31, 38, 37, 0.08);
+}
+
+.grade-fill {
+  height: 100%;
+  border-radius: 999rpx;
+  background: #9d2f2f;
+}
+
+.dimension {
+  margin-top: 22rpx;
+}
+
+.dimension-head,
+.module {
+  display: flex;
+  justify-content: space-between;
+  gap: 24rpx;
+  color: #17211f;
+  font-size: 27rpx;
+  font-weight: 760;
+}
+
+.bar {
+  margin-top: 14rpx;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 999rpx;
+  background: #e6c878;
+}
+
+.module {
+  padding: 18rpx 0;
+  border-top: 1rpx solid rgba(31, 38, 37, 0.08);
+}
+
+.warning {
+  border-left: 10rpx solid #9d2f2f;
+}
+
+.weak {
+  color: #7a4b43;
+  font-size: 27rpx;
+  line-height: 1.65;
+}

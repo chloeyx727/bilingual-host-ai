@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/textQuestions/textQuestions",
+    "pages/textPractice/textPractice",
+    "pages/textResult/textResult",
+    "pages/scripts/scripts",
+    "pages/record/record",
+    "pages/result/result",
+    "pages/dashboard/dashboard"
+  ],
+  "window": {
+    "navigationBarTitleText": "蜀传音 Shu Voice",
+    "navigationBarBackgroundColor": "#f7f3ea",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f3ea",
+    "backgroundTextStyle": "dark"
+  },
+  "networkTimeout": {
+    "request": 300000,
+    "connectSocket": 300000,
+    "uploadFile": 300000,
+    "downloadFile": 300000
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

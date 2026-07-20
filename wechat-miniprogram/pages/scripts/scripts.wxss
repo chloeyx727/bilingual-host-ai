@@ -1,0 +1,96 @@
+.scripts-page {
+  background:
+    linear-gradient(180deg, rgba(230, 200, 120, 0.2), transparent 340rpx),
+    #f7f3ea;
+}
+
+.header {
+  padding: 18rpx 0 34rpx;
+}
+
+.eyebrow {
+  color: #9d2f2f;
+  font-size: 24rpx;
+  font-weight: 700;
+}
+
+.title {
+  margin-top: 14rpx;
+  color: #17211f;
+  font-size: 46rpx;
+  font-weight: 850;
+  line-height: 1.18;
+}
+
+.intro {
+  margin-top: 18rpx;
+  color: #66706b;
+  font-size: 27rpx;
+  line-height: 1.65;
+}
+
+.group {
+  margin-top: 38rpx;
+}
+
+.group-head {
+  display: flex;
+  align-items: center;
+  gap: 18rpx;
+  margin-bottom: 20rpx;
+}
+
+.badge {
+  width: 22rpx;
+  height: 52rpx;
+  border-radius: 20rpx;
+  background: #9d2f2f;
+}
+
+.group-title {
+  font-size: 34rpx;
+  font-weight: 800;
+  color: #17211f;
+}
+
+.group-en {
+  margin-top: 6rpx;
+  color: #8a918e;
+  font-size: 24rpx;
+}
+
+.script-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18rpx;
+}
+
+.script-card {
+  min-height: 148rpx;
+  padding: 30rpx 28rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24rpx;
+}
+
+.script-title {
+  color: #1f2625;
+  font-size: 31rpx;
+  font-weight: 760;
+  line-height: 1.35;
+}
+
+.script-en {
+  margin-top: 10rpx;
+  color: #8a918e;
+  font-size: 24rpx;
+}
+
+.select {
+  flex: 0 0 auto;
+  color: #9d2f2f;
+  font-size: 26rpx;
+  font-weight: 800;
+}

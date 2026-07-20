@@ -1,0 +1,79 @@
+<view class="page dashboard-page safe-bottom">
+  <view class="header">
+    <view class="eyebrow">Dashboard</view>
+    <view class="title">学习仪表盘</view>
+    <view class="intro">查看文字测评练习记录、综合均分、等级分布和薄弱维度。</view>
+  </view>
+
+  <view wx:if="{{loading}}" class="panel loading">数据加载中...</view>
+
+  <view wx:elif="{{error}}" class="panel empty">
+    <view>{{error}}</view>
+    <button class="button primary retry" bindtap="loadDashboard">重新加载</button>
+  </view>
+
+  <view wx:elif="{{!hasData}}" class="panel empty">
+    <view class="empty-title">暂无练习记录</view>
+    <view class="empty-text">完成一次文字测评后，这里会显示你的成长数据。</view>
+    <button class="button primary retry" bindtap="goPractice">去文字测评</button>
+  </view>
+
+  <block wx:else>
+    <view class="stats">
+      <view class="stat panel">
+        <view class="stat-value">{{dashboard.total_practices}}</view>
+        <view class="stat-label">总练习</view>
+      </view>
+      <view class="stat panel">
+        <view class="stat-value">{{dashboard.average_score}}</view>
+        <view class="stat-label">综合均分</view>
+      </view>
+      <view class="stat panel">
+        <view class="stat-value">{{weakCount}}</view>
+        <view class="stat-label">薄弱维度</view>
+      </view>
+      <view class="stat panel">
+        <view class="stat-value">{{moduleCount}}</view>
+        <view class="stat-label">覆盖模块</view>
+      </view>
+    </view>
+
+    <view class="panel section radar-section">
+      <view class="section-title">八维能力雷达</view>
+      <canvas canvas-id="radarCanvas" class="radar-canvas"></canvas>
+    </view>
+
+    <view class="panel section">
+      <view class="section-title">等级分布</view>
+      <view class="grade-row" wx:for="{{gradeItems}}" wx:key="grade">
+        <view class="grade-name">{{item.grade}}</view>
+        <view class="grade-bar"><view class="grade-fill" style="width: {{item.percent}}%;"></view></view>
+        <view class="grade-count">{{item.count}}</view>
+      </view>
+    </view>
+
+    <view class="panel section">
+      <view class="section-title">能力维度明细</view>
+      <view class="dimension" wx:for="{{radarItems}}" wx:key="key">
+        <view class="dimension-head">
+          <view>{{item.label}}</view>
+          <view>{{item.score}}</view>
+        </view>
+        <view class="bar"><view class="bar-fill" style="width: {{item.score}}%;"></view></view>
+      </view>
+    </view>
+
+    <view class="panel section">
+      <view class="section-title">模块覆盖</view>
+      <view class="module" wx:for="{{moduleItems}}" wx:key="key">
+        <view>{{item.label}}</view>
+        <view>{{item.count}} 次</view>
+      </view>
+    </view>
+
+    <view class="panel section warning" wx:if="{{weakItems.length}}">
+      <view class="section-title">薄弱维度提醒</view>
+      <view class="weak">{{weakText}}</view>
+    </view>
+  </block>
+</view>

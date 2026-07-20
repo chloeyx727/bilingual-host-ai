@@ -1,0 +1,84 @@
+<view class="questions-page">
+  <view class="pattern"></view>
+
+  <view class="topbar">
+    <view class="logo">蜀</view>
+    <view class="brand-name">巴蜀文化 · 双语主持</view>
+  </view>
+
+  <view class="content safe-bottom">
+    <view class="back" bindtap="goHome">← 返回首页</view>
+
+    <view class="header">
+      <view class="title">文稿内容测评</view>
+      <view class="intro">选择题型，撰写中英双语主持稿，AI 从八个维度深度评析</view>
+    </view>
+
+    <view class="filters">
+      <scroll-view class="filter-scroll" scroll-x enhanced show-scrollbar="{{false}}">
+        <view class="filter-row">
+          <view
+            class="filter-chip {{filterModule === item.value ? 'active' : ''}}"
+            wx:for="{{moduleOptions}}"
+            wx:key="value"
+            data-value="{{item.value}}"
+            bindtap="changeModule"
+          >{{item.label}}</view>
+        </view>
+      </scroll-view>
+
+      <scroll-view class="filter-scroll middle" scroll-x enhanced show-scrollbar="{{false}}">
+        <view class="filter-row">
+          <view
+            class="filter-chip {{filterType === item.value ? 'active' : ''}}"
+            wx:for="{{typeOptions}}"
+            wx:key="value"
+            data-value="{{item.value}}"
+            bindtap="changeType"
+          >{{item.label}}</view>
+        </view>
+      </scroll-view>
+
+      <scroll-view class="filter-scroll" scroll-x enhanced show-scrollbar="{{false}}">
+        <view class="filter-row">
+          <view
+            class="filter-chip {{filterDifficulty === item.value ? 'active' : ''}}"
+            wx:for="{{difficultyOptions}}"
+            wx:key="value"
+            data-value="{{item.value}}"
+            bindtap="changeDifficulty"
+          >{{item.label}}</view>
+        </view>
+      </scroll-view>
+    </view>
+
+    <view class="count">{{filteredQuestions.length}} 题</view>
+
+    <view wx:if="{{loading}}" class="state-card">题目加载中...</view>
+
+    <view wx:elif="{{error}}" class="state-card">
+      <view>{{error}}</view>
+      <button class="button primary retry" bindtap="loadQuestions">重新加载</button>
+    </view>
+
+    <view wx:elif="{{filteredQuestions.length === 0}}" class="state-card">
+      <view>当前分类下暂无题目，请切换模块、题型或难度。</view>
+    </view>
+
+    <view wx:else class="list">
+      <view class="question-card" wx:for="{{filteredQuestions}}" wx:key="id" data-id="{{item.id}}" bindtap="selectQuestion">
+        <view class="card-head">
+          <view class="type-badge">{{item.typeLabel}}</view>
+          <view class="stars">{{item.stars}}</view>
+        </view>
+        <view class="question-title">{{item.title_zh}}</view>
+        <view class="question-en">{{item.title_en}}</view>
+        <view class="divider"></view>
+        <view class="question-foot">
+          <view class="meta">⛰ {{item.moduleLabel}} · {{item.targetLabel}}</view>
+          <view class="enter">进入 ›</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

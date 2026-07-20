@@ -1,0 +1,57 @@
+<view class="home">
+  <view class="pattern"></view>
+
+  <view class="topbar">
+    <view class="logo">蜀</view>
+    <view class="brand-name">巴蜀文化 · 双语主持</view>
+  </view>
+
+  <view class="content safe-bottom">
+    <view class="hero">
+      <view class="kicker">BILINGUAL HOSTING · AI TUTOR</view>
+      <view class="title">巴蜀文化双语主持</view>
+      <view class="title-sub">教学智能体</view>
+    </view>
+
+    <view class="cards">
+      <view class="feature-card text-card" bindtap="goText">
+        <view class="icon-box">稿</view>
+        <view class="card-main">
+          <view class="title-row">
+            <text class="card-title">文稿内容测评</text>
+            <text class="card-title-en">Content Assessment</text>
+          </view>
+          <view class="card-desc">选择题型，撰写中英双语主持稿，AI 从八个维度深度评析内容逻辑与文化准确度</view>
+          <view class="enter">进入 ›</view>
+        </view>
+      </view>
+
+      <view class="feature-card speech-card" bindtap="goSpeech">
+        <view class="icon-box">录</view>
+        <view class="card-main">
+          <view class="title-row">
+            <text class="card-title">录音专项测评</text>
+            <text class="card-title-en">Speech Assessment</text>
+          </view>
+          <view class="card-desc">从巴蜀文化双语文稿中选择朗读，讯飞 AI 即时评测中英文发音准确度、流利度与完整度</view>
+          <view class="enter">进入 ›</view>
+        </view>
+        <view class="badge">推荐</view>
+      </view>
+
+      <view class="feature-card dash-card" bindtap="goDashboard">
+        <view class="icon-box">评</view>
+        <view class="card-main">
+          <view class="title-row">
+            <text class="card-title">成长追踪仪表盘</text>
+            <text class="card-title-en">Dashboard</text>
+          </view>
+          <view class="card-desc">八维能力雷达、等级分布、成长曲线与薄弱维度预警，持续追踪主持能力进阶</view>
+          <view class="enter">进入 ›</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="footer">巴蜀文化国际传播 · 蜀传音 Shu Voice</view>
+  </view>
+</view>

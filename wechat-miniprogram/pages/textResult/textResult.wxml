@@ -1,0 +1,37 @@
+<view class="page result-page safe-bottom">
+  <view class="panel summary">
+    <view class="label">文字测评结果</view>
+    <view class="title">{{title}}</view>
+    <view wx:if="{{assessment}}">
+      <view class="grade">{{assessment.overall_grade}}</view>
+      <view class="score">{{assessment.overall_score}}</view>
+      <view class="score-label">/ 100</view>
+    </view>
+    <view wx:else class="pending">已提交，但评测结果暂未返回。</view>
+  </view>
+
+  <view class="panel section" wx:if="{{assessment.highlights && assessment.highlights.length}}">
+    <view class="section-title">亮点</view>
+    <view class="item" wx:for="{{assessment.highlights}}" wx:key="*this">{{item}}</view>
+  </view>
+
+  <view class="panel section" wx:if="{{assessment.improvements && assessment.improvements.length}}">
+    <view class="section-title">改进建议</view>
+    <view class="item" wx:for="{{assessment.improvements}}" wx:key="*this">{{item}}</view>
+  </view>
+
+  <view class="panel section" wx:if="{{dimensions.length}}">
+    <view class="section-title">维度得分</view>
+    <view class="dimension" wx:for="{{dimensions}}" wx:key="dimension_key">
+      <view class="dimension-head">
+        <view>{{item.dimension_name_zh}}</view>
+        <view>{{item.score}}</view>
+      </view>
+      <view class="bar"><view class="bar-fill" style="width: {{item.score}}%;"></view></view>
+      <view class="feedback">{{item.summary || item.feedback}}</view>
+    </view>
+  </view>
+
+  <button class="button primary" bindtap="again">继续文字测评</button>
+  <button class="button ghost" bindtap="home">返回首页</button>
+</view>

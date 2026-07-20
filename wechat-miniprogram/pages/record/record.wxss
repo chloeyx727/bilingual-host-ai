@@ -1,0 +1,105 @@
+.record-page {
+  background:
+    linear-gradient(180deg, rgba(28, 74, 72, 0.12), transparent 360rpx),
+    #f7f3ea;
+}
+
+.script {
+  padding: 34rpx 30rpx;
+}
+
+.tag {
+  color: #9d2f2f;
+  font-size: 24rpx;
+  font-weight: 800;
+}
+
+.title {
+  margin-top: 14rpx;
+  color: #17211f;
+  font-size: 42rpx;
+  font-weight: 850;
+  line-height: 1.25;
+}
+
+.category {
+  margin-top: 12rpx;
+  color: #79817d;
+  font-size: 25rpx;
+}
+
+.reader,
+.module {
+  margin-top: 26rpx;
+  padding: 30rpx;
+}
+
+.reader-title {
+  color: #17211f;
+  font-size: 29rpx;
+  font-weight: 800;
+}
+
+.reader-text {
+  margin-top: 18rpx;
+  color: #3f4744;
+  font-size: 28rpx;
+  line-height: 1.78;
+}
+
+.en-text {
+  font-size: 27rpx;
+}
+
+.module {
+  border-left: 10rpx solid #9d2f2f;
+}
+
+.module.en {
+  border-left-color: #1c4a48;
+}
+
+.module-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20rpx;
+}
+
+.module-title {
+  color: #17211f;
+  font-size: 35rpx;
+  font-weight: 850;
+}
+
+.module-sub {
+  margin-top: 8rpx;
+  color: #838b87;
+  font-size: 24rpx;
+}
+
+.status {
+  flex: 0 0 auto;
+  padding: 10rpx 18rpx;
+  border-radius: 999rpx;
+  color: #8a6657;
+  background: rgba(230, 200, 120, 0.22);
+  font-size: 23rpx;
+  font-weight: 700;
+}
+
+.status.ready {
+  color: #1c4a48;
+  background: rgba(28, 74, 72, 0.12);
+}
+
+.controls {
+  margin-top: 28rpx;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18rpx;
+}
+
+button {
+  margin: 0;
+}

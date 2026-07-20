@@ -1,0 +1,76 @@
+<view class="page practice-page safe-bottom">
+  <view wx:if="{{loading}}" class="panel loading">题目加载中...</view>
+
+  <block wx:else>
+    <view class="question panel">
+      <view class="tag">Text Assessment</view>
+      <view class="title">{{question.title_zh}}</view>
+      <view class="title-en">{{question.title_en}}</view>
+      <view wx:if="{{question.scenario}}" class="scenario">{{question.scenario}}</view>
+    </view>
+
+    <view class="knowledge panel">
+      <view class="knowledge-head">
+        <view class="knowledge-icon">书</view>
+        <view class="knowledge-title">知识辅助</view>
+        <view class="knowledge-count">{{knowledgeCards.length}} 条</view>
+      </view>
+
+      <view wx:if="{{knowledgeCards.length === 0}}" class="knowledge-empty">暂无关联知识卡片</view>
+
+      <view wx:else class="knowledge-list">
+        <view class="knowledge-card" wx:for="{{knowledgeCards}}" wx:key="id">
+          <view class="knowledge-card-head" data-index="{{index}}" bindtap="toggleKnowledge">
+            <view class="chevron">{{item.expanded ? '⌄' : '›'}}</view>
+            <view class="knowledge-card-text">
+              <view class="knowledge-card-title">{{item.titleZh}}</view>
+              <view class="knowledge-card-en">{{item.titleEn}}</view>
+            </view>
+          </view>
+
+          <view wx:if="{{item.expanded}}" class="knowledge-body">
+            <view wx:if="{{item.summaryZh}}" class="summary">{{item.summaryZh}}</view>
+
+            <view wx:if="{{item.keyFacts.length}}" class="knowledge-section">
+              <view class="section-label">关键事实</view>
+              <view class="bullet" wx:for="{{item.keyFacts}}" wx:for-item="fact" wx:key="*this">• {{fact}}</view>
+            </view>
+
+            <view wx:if="{{item.misunderstandings.length}}" class="knowledge-section warning">
+              <view class="section-label">注意避免</view>
+              <view class="bullet" wx:for="{{item.misunderstandings}}" wx:for-item="mis" wx:key="*this">• {{mis}}</view>
+            </view>
+
+            <view wx:if="{{item.narrativeAngles.length}}" class="knowledge-section">
+              <view class="section-label">叙事角度</view>
+              <view class="bullet" wx:for="{{item.narrativeAngles}}" wx:for-item="angle" wx:key="*this">• {{angle}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="editor panel">
+      <view class="editor-head">
+        <view>
+          <view class="editor-title">中文主持稿</view>
+          <view class="counter">{{zhCount}} 字</view>
+        </view>
+      </view>
+      <textarea class="textarea" value="{{scriptZh}}" bindinput="onZhInput" placeholder="请在这里输入中文主持稿..." maxlength="-1" auto-height></textarea>
+    </view>
+
+    <view class="editor panel">
+      <view class="editor-head">
+        <view>
+          <view class="editor-title">English Script</view>
+          <view class="counter">{{enCount}} words</view>
+        </view>
+      </view>
+      <textarea class="textarea en" value="{{scriptEn}}" bindinput="onEnInput" placeholder="Write your English hosting script here..." maxlength="-1" auto-height></textarea>
+    </view>
+
+    <view wx:if="{{error}}" class="error">{{error}}</view>
+    <button class="button primary submit" loading="{{submitting}}" bindtap="submit">提交文字测评</button>
+  </block>
+</view>

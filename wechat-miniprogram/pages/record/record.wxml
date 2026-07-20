@@ -1,0 +1,51 @@
+<view class="page record-page safe-bottom">
+  <view class="script panel">
+    <view class="tag">{{script.categoryEn}}</view>
+    <view class="title">{{script.title}}</view>
+    <view class="category">{{script.category}}</view>
+  </view>
+
+  <view class="reader panel">
+    <view class="reader-title">中文文稿</view>
+    <view class="reader-text">{{script.textCn}}</view>
+  </view>
+
+  <view class="module panel cn">
+    <view class="module-head">
+      <view>
+        <view class="module-title">中文录音</view>
+        <view class="module-sub">Mandarin Recording</view>
+      </view>
+      <view class="status {{cnPath ? 'ready' : ''}}">{{cnStatus}}</view>
+    </view>
+
+    <view class="controls">
+      <button class="button primary" wx:if="{{recording && activeLang === 'cn'}}" bindtap="stopRecord">停止录音</button>
+      <button class="button primary" wx:elif="{{!recording}}" bindtap="startChinese">开始录音</button>
+      <button class="button ghost" wx:if="{{cnPath && !recording}}" bindtap="playChinese">播放</button>
+      <button class="button secondary" wx:if="{{cnPath && !recording}}" bindtap="submitChinese" loading="{{submitting === 'cn'}}">上传中文测评</button>
+    </view>
+  </view>
+
+  <view class="reader panel">
+    <view class="reader-title">English Script</view>
+    <view class="reader-text en-text">{{script.textEn}}</view>
+  </view>
+
+  <view class="module panel en">
+    <view class="module-head">
+      <view>
+        <view class="module-title">English Recording</view>
+        <view class="module-sub">英文录音</view>
+      </view>
+      <view class="status {{enPath ? 'ready' : ''}}">{{enStatus}}</view>
+    </view>
+
+    <view class="controls">
+      <button class="button primary" wx:if="{{recording && activeLang === 'en'}}" bindtap="stopRecord">Stop</button>
+      <button class="button primary" wx:elif="{{!recording}}" bindtap="startEnglish">Record</button>
+      <button class="button ghost" wx:if="{{enPath && !recording}}" bindtap="playEnglish">Play</button>
+      <button class="button secondary" wx:if="{{enPath && !recording}}" bindtap="submitEnglish" loading="{{submitting === 'en'}}">Upload English Assessment</button>
+    </view>
+  </view>
+</view>

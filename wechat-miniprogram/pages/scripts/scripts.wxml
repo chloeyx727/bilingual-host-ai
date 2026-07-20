@@ -1,0 +1,29 @@
+<view class="page scripts-page">
+  <view class="header">
+    <view class="eyebrow">Speech Practice</view>
+    <view class="title">选择巴蜀文化双语文稿</view>
+    <view class="intro">请选择一篇文稿进入录制页面，中文与英文可分别录音并上传测评。</view>
+  </view>
+
+  <block wx:for="{{groups}}" wx:key="category">
+    <view class="group">
+      <view class="group-head">
+        <view class="badge"></view>
+        <view>
+          <view class="group-title">{{item.category}}</view>
+          <view class="group-en">{{item.categoryEn}}</view>
+        </view>
+      </view>
+
+      <view class="script-list">
+        <view class="script-card panel" wx:for="{{item.scripts}}" wx:for-item="script" wx:key="id" data-id="{{script.id}}" bindtap="selectScript">
+          <view>
+            <view class="script-title">{{script.title}}</view>
+            <view class="script-en">{{script.categoryEn}}</view>
+          </view>
+          <view class="select">选择文稿</view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

@@ -22,6 +22,9 @@ services:
       - backend
     ports:
       - "80:80"
+      - "443:443"
+    volumes:
+      - ./deployment/certs:/etc/nginx/certs:ro
 
 volumes:
   backend_data:

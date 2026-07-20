@@ -1,7 +1,7 @@
 """语音评测 API 路由"""
 import json
 import base64
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from ..database import get_db
@@ -20,6 +20,78 @@ class SpeechOnlyRequest(BaseModel):
     audio_en_base64: str = ""
     text_cn: str = ""
     text_en: str = ""
+
+
+async def _save_speech_result(
+    db: Session,
+    cn_bytes: bytes = b"",
+    en_bytes: bytes = b"",
+    text_cn: str = "",
+    text_en: str = "",
+) -> dict:
+    student = db.query(Student).first()
+    if not student:
+        student = Student(nickname="演示学生")
+        db.add(student)
+        db.flush()
+
+    practice = Practice(
+        student_id=student.id,
+        question_id=0,
+        script_zh="",
+        script_en="",
+        word_count_zh=0,
+        word_count_en=0,
+        duration_seconds=0,
+    )
+    db.add(practice)
+    db.flush()
+
+    assessment = Assessment(practice_id=practice.id)
+    db.add(assessment)
+    db.flush()
+
+    result = await evaluate_bilingual(
+        audio_cn_bytes=cn_bytes,
+        audio_en_bytes=en_bytes,
+        text_cn=text_cn or "",
+        text_en=text_en or "",
+    )
+
+    assessment.voice_result = json.dumps(result, ensure_ascii=False)
+    db.commit()
+
+    return {
+        "practice_id": practice.id,
+        "status": "completed",
+        "voice_result": result,
+    }
+
+
+@router.post("/speech-upload", response_model=dict)
+async def speech_upload_evaluate(
+    audio: UploadFile = File(...),
+    lang: str = Form("cn"),
+    text_cn: str = Form(""),
+    text_en: str = Form(""),
+    db: Session = Depends(get_db),
+):
+    audio_bytes = await audio.read()
+    if not audio_bytes:
+        raise HTTPException(status_code=400, detail="录音文件为空")
+
+    if lang == "en":
+        return await _save_speech_result(
+            db=db,
+            en_bytes=audio_bytes,
+            text_en=text_en or "",
+        )
+
+    return await _save_speech_result(
+        db=db,
+        cn_bytes=audio_bytes,
+        text_cn=text_cn or "",
+    )
 
 
 @router.post("/speech-only", response_model=dict)
